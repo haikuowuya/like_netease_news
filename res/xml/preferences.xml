@@ -232,6 +232,11 @@
                 android:targetClass="com.roboo.like.netease.ResideMenuActivity"
                 android:targetPackage="com.roboo.like.netease" />
         </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_color_picker" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ColorPickerActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
     </PreferenceCategory>
 
 </PreferenceScreen>

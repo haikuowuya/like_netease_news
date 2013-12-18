@@ -48,6 +48,7 @@
     <string name="tv_other_setting">其他设置</string>
     <string name="tv_newcomer_guide">新手引导</string>
     <string name="tv_about">关于</string>
+    <string name="tv_color_picker">颜色选择器</string>
     <string name="tv_list_nav">List导航模式</string>
     <string name="tv_reside_menu">ResideMenu模式</string>
     <string name="tv_short_cut">创建桌面快捷方式</string>

@@ -112,6 +112,7 @@
         <activity android:name=".ShowImageActivity" />
         <activity android:name=".NewsActivity" />
         <activity android:name=".BitmapActivity" />
+        <activity android:name=".ColorPickerActivity" />
         <activity android:name=".widget.TextViewActivity" />
         <activity
             android:name=".WebViewActivity"
