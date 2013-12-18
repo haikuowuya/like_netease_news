@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/background_window</item>
+        <item name="android:windowAnimationStyle">@style/base_activity_animation</item>
+        <item name="android:actionModeBackground">@drawable/action_bar_background</item>
+        <item name="android:actionModeSplitBackground">@drawable/action_bar_background</item>
+
+        <!-- <item name="android:actionBarStyle">@style/ActionBarStyle</item> -->
+    </style>
+    <!--
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:icon">@drawable/ic_launcher_actionbar</item>
+        <item name="android:background">#FF666666</item>  
+    </style>
+    -->
+
+    <style name="base_activity_animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:activityCloseEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:activityCloseExitAnimation">@anim/base_slide_right_out</item>
+        <item name="android:taskOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:taskOpenExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskCloseEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskCloseExitAnimation">@anim/base_slide_right_out</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:taskToFrontExitAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskToBackEnterAnimation">@anim/base_stay_orig</item>
+        <item name="android:taskToBackExitAnimation">@anim/base_slide_right_out</item>
+    </style>
+    <!-- actionbar pulltorefresh style -->
+    <style name="Widget.PullToRefresh.ProgressBar.Horizontal.Center" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/ptr_progress_horizontal_holo_center</item>
+        <item name="android:indeterminateDrawable">@drawable/ptr_progress_indeterminate_horizontal_holo</item>
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+    </style>
+
+</resources>

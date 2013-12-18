@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_sort_key"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/actionbar_color"
+        android:paddingLeft="10dp"
+        android:text="@string/tv_always_selcted_city"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+</LinearLayout>

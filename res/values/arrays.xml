@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>头条</item>
+        <item>手机</item>
+        <item>科技</item>
+        <item>移动互联网</item>
+        <item>数码</item>
+        <item>游戏</item>
+        <item>娱乐</item>
+        <item>军事</item>
+    </string-array>
+    <string-array name="left_menu_content">
+        <item>新闻</item>
+        <item>本地</item>
+        <item>跟帖</item>
+        <item>图片</item>
+        <item>话题</item>
+        <item>投票</item>
+        <item>微生活</item>
+    </string-array>
+    <string-array name="city_list">
+        <item>北京</item>
+        <item>天津</item>
+        <item>武汉</item>
+        <item>香港</item>
+        <item>成都</item>
+        <item>重庆</item>
+        <item>苏州</item>
+        <item>上海</item>
+        <item>无锡</item>
+        <item>扬州</item>
+        <item>杭州</item>
+        <item>镇江</item>
+    </string-array>
+    <string-array name="right_menu_content">
+        <item>软件设置1</item>
+        <item>本地天气</item>
+        <item>离线下载</item>
+        <item>夜间模式</item>
+        <item>搜索新闻</item>
+        <item>网易邮箱</item>
+        <item>软件设置2</item>
+    </string-array>
+    <string-array name="animation_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+</resources>

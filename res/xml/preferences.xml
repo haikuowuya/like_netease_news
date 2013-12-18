@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a primitive example showing the different types of preferences available. -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- account  settings -->
+    <PreferenceCategory android:title="@string/tv_account_setting" >
+        <PreferenceScreen
+            android:key="tv_account"
+            android:title="@string/tv_account" >
+            <intent
+                android:targetClass="com.roboo.like.netease.AccountActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="tv_bind"
+            android:title="@string/tv_bind" >
+            <intent
+                android:targetClass="com.roboo.like.netease.BindActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <!-- system settings -->
+    <PreferenceCategory android:title="@string/tv_system_setting" >
+        <PreferenceScreen
+            android:key="tv_font"
+            android:title="@string/tv_font_setting" >
+            <intent
+                android:targetClass="com.roboo.like.netease.AccountActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="tv_font_size"
+            android:title="@string/tv_font_size_setting" >
+            <intent
+                android:targetClass="com.roboo.like.netease.BindActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+
+        <SwitchPreference
+            android:key="tv_news_push"
+            android:title="@string/tv_news_push" />
+        <SwitchPreference
+            android:key="@string/tv_wifi_download"
+            android:title="@string/tv_wifi_download" />
+        <SwitchPreference
+            android:key="@string/tv_2g_3g_no_img"
+            android:title="@string/tv_2g_3g_no_img" />
+        <SwitchPreference
+            android:key="@string/tv_auto_load_more"
+            android:title="@string/tv_auto_load_more" />
+
+        <Preference
+            android:key="@string/tv_manual_clear_cache"
+            android:title="@string/tv_manual_clear_cache" />
+    </PreferenceCategory>
+    <!-- other settings -->
+
+    <PreferenceCategory android:title="@string/tv_other_setting" >
+        <PreferenceScreen android:title="@string/tv_newcomer_guide" >
+            <intent
+                android:targetClass="com.roboo.like.netease.WelcomeActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_feedback" >
+            <intent
+                android:targetClass="com.roboo.like.netease.FeedbackActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_app_recommand" >
+            <intent
+                android:targetClass="com.roboo.like.netease.WelcomeActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_about" >
+            <intent
+                android:targetClass="com.roboo.like.netease.AboutActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_round_spin" >
+            <intent
+                android:targetClass="com.roboo.like.netease.RoundSpinActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_phone_gap" >
+            <intent
+                android:targetClass="com.roboo.like.netease.PhoneGapActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_drawer_layout" >
+            <intent
+                android:targetClass="com.roboo.like.netease.DrawerLayoutActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_jni" >
+            <intent
+                android:targetClass="com.roboo.like.netease.JNIActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_crash" >
+            <intent
+                android:targetClass="com.roboo.like.netease.NoSuchActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_client_socket" >
+            <intent
+                android:targetClass="com.roboo.like.netease.SocketActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_server_socket" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ServerSocketActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_android_volley" >
+            <intent
+                android:targetClass="com.roboo.like.netease.VolleyActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_layout_change_animation" >
+            <intent
+                android:targetClass="com.roboo.like.netease.LayoutAnimationActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_roboguice" >
+            <intent
+                android:targetClass="com.roboo.like.netease.RoboGuiceActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_matrix" >
+            <intent
+                android:targetClass="com.roboo.like.netease.MatrixActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_two_code" >
+            <intent
+                android:targetClass="com.roboo.like.netease.TwoCodeActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_surface_view" >
+            <intent
+                android:targetClass="com.roboo.like.netease.SurfaceViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_border_listview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.BorderListViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_water_wave" >
+            <intent
+                android:targetClass="com.roboo.like.netease.WaterWaveActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_property_animation" >
+            <intent
+                android:targetClass="com.roboo.like.netease.PropertyAnimationActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_pinterest" >
+            <intent
+                android:targetClass="com.roboo.like.netease.PinterestActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_fragment_loader" >
+            <intent
+                android:targetClass="com.roboo.like.netease.FragmentLoaderActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_fragment_animation" >
+            <intent
+                android:targetClass="com.roboo.like.netease.FragmentAnimationActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_open_gl" >
+            <intent
+                android:targetClass="com.roboo.like.netease.OpenGLActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_float_image_text" >
+            <intent
+                android:targetClass="com.roboo.like.netease.FloatImageTextActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_scroller" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ScrollerActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_city_list2" >
+            <intent
+                android:targetClass="com.roboo.like.netease.CityList2Activity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_bitmap" >
+            <intent
+                android:targetClass="com.roboo.like.netease.BitmapActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_attr" >
+            <intent
+                android:targetClass="com.roboo.like.netease.AttrActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_short_cut" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ShortCutActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_local_broadcast_manager" >
+            <intent
+                android:targetClass="com.roboo.like.netease.LocalBroadCastManagerActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_textview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.widget.TextViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_gif" >
+            <intent
+                android:targetClass="com.roboo.like.netease.widget.GIFActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_list_nav" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ListNavModeActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_reside_menu" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ResideMenuActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

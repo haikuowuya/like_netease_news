@@ -1,0 +1,248 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/linearlayout_divider"
+        android:dividerPadding="10dp"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/tv_account_setting" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#FF0000"
+            android:dividerPadding="20dp"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF000000"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_account"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                      android:paddingStart="30dp"
+                android:text="@string/tv_account" />
+
+            <Button
+                android:id="@+id/btn_bind"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                      android:paddingStart="30dp"
+                android:text="@string/tv_bind" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                      android:paddingStart="30dp"
+                android:text="@string/tv_system_setting" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#FF0000"
+            android:dividerPadding="20dp"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF000000"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_font_setting"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                      android:paddingStart="30dp"
+                android:text="@string/tv_font_setting" />
+
+            <Button
+                android:id="@+id/btn_font_size_setting"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                      android:paddingStart="30dp"
+                android:text="@string/tv_font_size_setting" />
+
+            <Button
+                android:id="@+id/btn_news_push"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:drawableRight="@drawable/ic_plug_in_open"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                  android:paddingStart="30dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_news_push" />
+
+            <Button
+                android:id="@+id/btn_wifi_download"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:drawableRight="@drawable/ic_plug_in_close"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                  android:paddingStart="30dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_wifi_download" />
+
+            <Button
+                android:id="@+id/btn_2g_3g"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:drawableRight="@drawable/ic_plug_in_open"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                  android:paddingStart="30dp"
+                android:paddingRight="20dp"
+                  android:paddingEnd="20dp"
+                android:text="@string/tv_2g_3g_no_img" />
+
+            <Button
+                android:id="@+id/btn_auto_load_more"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:drawableRight="@drawable/ic_plug_in_open"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                  android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_auto_load_more" />
+
+            <Button
+                android:id="@+id/btn_clear_cache"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                  android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_manual_clear_cache" />
+
+            <Button
+                android:id="@+id/btn_plug_in"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                  android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_plug_in" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                  android:paddingStart="20dp"
+              
+                android:text="@string/tv_other_setting" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#FF0000"
+            android:dividerPadding="20dp"
+            android:orientation="vertical"
+            android:showDividers="middle" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FF000000"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_newcomer_guide"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                  android:paddingStart="30dp"
+                
+                android:text="@string/tv_newcomer_guide" />
+
+            <Button
+                android:id="@+id/btn_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                  android:paddingStart="30dp"
+                
+                android:text="@string/tv_feedback" />
+
+            <Button
+                android:id="@+id/btn_app_recommand"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                  android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_app_recommand" />
+
+            <Button
+                android:id="@+id/btn_about"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/ibtn_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"
+                  android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tv_about" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

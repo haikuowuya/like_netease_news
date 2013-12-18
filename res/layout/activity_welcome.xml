@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mvp_cpi="http://schemas.android.com/apk/res/com.roboo.like.netease"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <com.roboo.like.netease.view.MyViewPager
+        android:id="@+id/mvp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        mvp_cpi:fadeEnable="true" />
+
+    <com.roboo.like.netease.view.CirclePageIndicator
+        android:id="@+id/cpi_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:padding=" 4dp"
+        mvp_cpi:fillColor="@color/actionbar_color"
+        mvp_cpi:radius="8dp"
+        mvp_cpi:strokeColor="@color/holo_blue" />
+
+</LinearLayout>

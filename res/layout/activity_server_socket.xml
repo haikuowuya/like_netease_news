@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_ip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="4dp"
+        android:textColorHint="@color/actionbar_color" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="left|top"
+        android:paddingLeft="4dp"
+        android:textColorHint="@color/actionbar_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_start_experience_selector"
+            android:text="@string/tv_send"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_start_experience_selector"
+            android:text="@string/tv_cancle"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

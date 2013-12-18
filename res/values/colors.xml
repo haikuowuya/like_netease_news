@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="imageview_pressed_color">#88BC1100</color>
+    <color name="actionbar_color">#BC1100</color>
+    <color name="holo_blue">#FF33E5B5</color>
+
+</resources>

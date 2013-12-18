@@ -1,0 +1,8 @@
+<com.roboo.like.netease.view.BorderListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blv_listview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0F0F0" >
+
+</com.roboo.like.netease.view.BorderListView>

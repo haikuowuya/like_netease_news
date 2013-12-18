@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+
+    <ImageView
+        android:id="@+id/iv_up"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:src="@drawable/ic_up" />
+    <ImageButton
+        android:id="@+id/ibtn_left_top"
+        android:layout_width="48dp"
+        android:layout_toRightOf="@+id/iv_up"
+        android:layout_height="match_parent"
+        android:background="@drawable/ibtn_selector"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_back" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/ibtn_left_top"
+        android:background="@drawable/ic_news_divider" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/ibtn_left_top"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/ibtn_location"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_toLeftOf="@+id/ibtn_share"
+        android:background="@drawable/ibtn_selector"
+        android:clickable="true"
+        android:padding="4dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_action_bar_location"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@id/ibtn_share"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:background="@drawable/ibtn_selector"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_action_bar_share"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ibtn_search"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:background="@drawable/ibtn_selector"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_search"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <com.roboo.like.netease.view.MyProgressBar
+        android:id="@+id/mpb_progress"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:psts="http://schemas.android.com/apk/res/com.roboo.like.netease"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_tabs_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/background_tabs"
+        android:orientation="horizontal" >
+
+        <com.roboo.like.netease.view.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            psts:dividerColor="#00000000"
+            psts:underlineColor="#FF0000" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_news_divider" />
+
+        <ImageButton
+            android:id="@+id/ibtn_subscribe"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ibtn_selector"
+            android:gravity="center"
+            android:padding="4dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_subscribe_item" />
+    </LinearLayout>
+
+    <com.roboo.like.netease.view.MyViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_tabs_container" />
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="border_top">Border Top</string>
+    <string name="border_bottom">Border Bottom</string>
+    <string name="image_url">Image Url</string>
+    <string name="app_name">网易新闻</string>
+    <string name="action_contact">Contact</string>
+    <string name="tv_action_mode">模式</string>
+    <string name="tv_action_home">回到桌面</string>
+    <string name="tv_edit_subscribe">编辑订阅</string>
+    <string name="tv_add_subscribe">添加订阅</string>
+    <string name="tv_start_experience">开始体验</string>
+    <string name="tv_plug_in">插件管理</string>
+    <string name="tv_settings">设置</string>
+    <string name="tv_city_list">城市列表</string>
+    <string name="tv_city_list2">城市列表2</string>
+    <string name="tv_bitmap">Bitmap</string>
+    <string name="tv_search_city">搜索城市</string>
+    <string name="tv_weather">天气</string>
+    <string name="tv_search_news">搜索新闻</string>
+    <string name="tv_share_to">分享到</string>
+    <string name="tv_progressing">正在加载中……</string>
+    <string name="tv_click_load_more">点击加载更多</string>
+    <string name="tv_username_hint">请输入帐号</string>
+    <string name="tv_week">星期四</string>
+    <string name="tv_password_hint">请输入密码</string>
+    <string name="tv_login">登录</string>
+    <string name="tv_loading_city_data">正在加载城市数据……</string>
+    <string name="tv_netease_mail">网易邮箱</string>
+    <string name="tv_local_broadcast_manager">Support_v4_LocalBroadCastManager</string>
+    <string name="tv_register">注册</string>
+    <string name="tv_remove_view">移除View</string>
+    <string name="tv_recommand_subscribe">推荐栏目订阅</string>
+    <string name="tv_subscribe_interested">订阅感兴趣的</string>
+    <string name="tv_account">我的账户</string>
+    <string name="tv_bind">绑定其他平台</string>
+    <string name="tv_account_setting">帐号设置</string>
+    <string name="tv_system_setting">系统设置</string>
+    <string name="tv_font_setting">字体设置</string>
+    <string name="tv_font_size_setting">正文字号</string>
+    <string name="tv_news_push">要闻推送</string>
+    <string name="tv_wifi_download">WIFI下自动离线</string>
+    <string name="tv_2g_3g_no_img">2G/3G网络不下载图片</string>
+    <string name="tv_edittext_hint">请输入内容</string>
+    <string name="tv_auto_load_more">列表自动加载更多</string>
+    <string name="tv_manual_clear_cache">手动清理缓存</string>
+    <string name="tv_other_setting">其他设置</string>
+    <string name="tv_newcomer_guide">新手引导</string>
+    <string name="tv_about">关于</string>
+    <string name="tv_list_nav">List导航模式</string>
+    <string name="tv_reside_menu">ResideMenu模式</string>
+    <string name="tv_short_cut">创建桌面快捷方式</string>
+    <string name="tv_attr">自定义属性</string>
+    <string name="tv_add_view">添加View</string>
+    <string name="tv_round_spin">圆形转盘</string>
+    <string name="tv_phone_gap">PhoneGap</string>
+    <string name="tv_about_version">当前版本是:%1$s</string>
+    <string name="tv_app_recommand">应用推荐</string>
+    <string name="tv_feedback">意见反馈</string>
+    <string name="tv_always_selcted_city">经常选择的城市</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="tv_standard">标准</string>
+    <string name="tv_news_detail">新闻详情</string>
+    <string name="tv_image_detail">图片详情</string>
+    <string name="tv_interest">选择感兴趣的栏目</string>
+    <string name="tv_tablet">写字板</string>
+    <string name="tv_cube_in">立方体进入</string>
+    <string name="tv_cube_out">立方体出去</string>
+    <string name="tv_flip_vertical">垂直旋转</string>
+    <string name="tv_flip_horizontal">水平旋转</string>
+    <string name="tv_stack">堆栈</string>
+    <string name="tv_zoom_in">缩放进入</string>
+    <string name="tv_drawer_layout">抽屉布局</string>
+    <string name="tv_jni">JNI</string>
+    <string name="tv_textview">TextView控件</string>
+    <string name="tv_gif">GIF图片</string>
+    <string name="tv_crash">程序崩溃</string>
+    <string name="tv_client_socket">Android客户端Socket</string>
+    <string name="tv_server_socket">Android服务器端Socket</string>
+    <string name="tv_android_volley">Android网络通信库</string>
+    <string name="tv_layout_change_animation">布局改变动画</string>
+    <string name="tv_roboguice">Android依赖注入</string>
+    <string name="tv_matrix">Matrix</string>
+    <string name="tv_surface_view">Surface View</string>
+    <string name="tv_border_listview">边框ListView</string>
+    <string name="tv_water_wave">水波效果</string>
+    <string name="tv_property_animation">属性动画[API11]</string>
+    <string name="tv_two_code">二维码</string>
+    <string name="tv_create">生成二维码</string>
+    <string name="tv_zoom_out">缩放出去</string>
+    <string name="tv_pinterest">瀑布流</string>
+    <string name="tv_fragment_loader">Fragment::Loader</string>
+    <string name="tv_fragment_animation">Fragment动画</string>
+    <string name="tv_open_gl">Open GL</string>
+    <string name="tv_float_image_text">文字环绕View</string>
+    <string name="tv_scroller">Scroller</string>
+    <string name="tv_pinterest2">瀑布流2</string>
+    <string name="tv_gridview_cache_adapter">GridView缓存适配器</string>
+    <string name="tv_rotate_up">向上旋转</string>
+    <string name="tv_rotate_down">向下旋转</string>
+    <string name="tv_accordion">手风琴</string>
+    <string name="tv_send">发送</string>
+    <string name="tv_send_hint">请输入要发送的内容</string>
+    <string name="tv_cancle">取消</string>
+    <string name="tv_matrix_translate">平移</string>
+    <string name="tv_matrix_rotate_round_center">旋转(围绕图像的中心点) </string>
+    <string name="tv_matrix_rotate_round_horizontal">旋转(围绕坐标原点) </string>
+    <string name="tv_matrix_scale">缩放</string>
+    <string name="tv_matrix_skew_horizontal">错切-水平</string>
+    <string name="tv_matrix_skew_vertical">错切-垂直</string>
+    <string name="tv_matrix_skew_horizontal_vertical">错切-水平+垂直</string>
+    <string name="tv_matrix_symmetrical_horizontal">对称-水平</string>
+    <string name="tv_matrix_symmetrical_vertical">对称-垂直  </string>
+    <string name="tv_matrix_symmetrical_x_y">对称-对称轴为直线y=x</string>
+    <string name="tv_3d_rotate">3D旋转</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+</resources>

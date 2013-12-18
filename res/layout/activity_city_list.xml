@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <AutoCompleteTextView
+        android:id="@+id/actv_textview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:completionThreshold="1"
+        android:drawableLeft="@drawable/ic_search_city_hint"
+        android:ellipsize="end"
+        android:hint="@string/tv_search_city"
+        android:singleLine="true"
+        android:textColorHint="@color/actionbar_color" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actv_textview"
+        android:layout_marginTop="20dp"
+        android:choiceMode="multipleChoiceModal"
+        android:fadingEdge="none" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linear_container"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:layout_below="@id/actv_textview"
+        android:layout_marginTop="20dp"
+        android:background="@color/actionbar_color" >
+
+        <TextView
+            android:id="@+id/tv_sort_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:text="@string/tv_always_selcted_city"
+            android:textColor="#00FFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_a_z"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/actv_textview"
+        android:background="@drawable/a_z" />
+
+    <RelativeLayout
+        android:id="@+id/relative_container"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/section_toast"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

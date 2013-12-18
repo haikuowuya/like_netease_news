@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res/com.roboo.like.netease"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <LinearLayout
+        android:id="@+id/linear_tabs_container"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:divider="?android:attr/listDivider"
+        android:dividerPadding="4dp"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/btn_add_subcribe"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ibtn_selector"
+            android:drawableStart="@drawable/ic_subscribe_add"
+            android:gravity="center_vertical"
+            android:paddingLeft="100dp"
+            android:text="@string/tv_add_subscribe"
+            android:textColor="#A10000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_news_divider"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ibtn_subscribe"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ibtn_selector"
+            android:gravity="center"
+            android:padding="4dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_subscribe_up" />
+    </LinearLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_tabs_container"
+        android:animateLayoutChanges="true" />
+
+</RelativeLayout>

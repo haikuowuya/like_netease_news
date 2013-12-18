@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.roboo.like.netease"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+     
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <com.roboo.like.netease.view.RoundProgressBar
+        android:id="@+id/roundProgressBar1"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+       android:layout_margin="20dp"
+        android:layout_weight="1"
+        android_custom:roundColor="#D1D1D1"
+        android_custom:roundProgressColor="#00FF22"
+        android_custom:roundWidth="10dip"
+        android_custom:textColor="#9A32CD"
+        android_custom:style_style="STROKE"
+        android_custom:textIsDisplayable="true"
+        android_custom:textSize="18sp" />
+
+    <com.roboo.like.netease.view.RoundProgressBar
+        android:id="@+id/roundProgressBar2"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+      android:layout_weight="1"
+        android_custom:roundColor="#D1D1D1"
+       android:layout_margin="20dp"
+        android_custom:roundProgressColor="#FF0033"
+        android_custom:roundWidth="10dip"
+        android_custom:textColor="#9A32CD"
+        android_custom:style_style="FILL"
+        android_custom:textIsDisplayable="false"
+        android_custom:textSize="18sp" />
+
+</LinearLayout>

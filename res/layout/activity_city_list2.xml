@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <AutoCompleteTextView
+        android:id="@+id/actv_textview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:completionThreshold="1"
+        android:drawableLeft="@drawable/ic_search_city_hint"
+        android:ellipsize="end"
+        android:hint="@string/tv_search_city"
+        android:singleLine="true"
+        android:textColorHint="@color/actionbar_color" />
+	<com.roboo.like.netease.view.SectionListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:choiceMode="multipleChoiceModal"
+        android:fadingEdge="none" >
+    </com.roboo.like.netease.view.SectionListView>
+</FrameLayout>

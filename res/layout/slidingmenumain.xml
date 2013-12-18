@@ -1,0 +1,7 @@
+<com.roboo.like.netease.slidingmenu.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slidingmenu="http://schemas.android.com/apk/res/com.roboo.like.netease"
+    android:id="@+id/slidingmenumain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    slidingmenu:selectorDrawable="@drawable/ic_follow"
+    slidingmenu:shadowWidth="40dp" />
