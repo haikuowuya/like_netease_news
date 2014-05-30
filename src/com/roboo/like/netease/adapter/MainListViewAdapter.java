@@ -33,7 +33,6 @@ public class MainListViewAdapter extends BaseAdapter
 		this.context = context;
 		this.data = data;
 		this.mImageLoader = imageLoader;
-
 		this.mImageLoader.init(ImageLoaderConfiguration.createDefault(context));
 
 	}
@@ -63,6 +62,7 @@ public class MainListViewAdapter extends BaseAdapter
 	{
 		ViewHolder holder = null;
 		News news = data.get(position);
+		int screenWidth = context.getResources().getDisplayMetrics().widthPixels;
 		if (null == convertView)
 		{
 			holder = new ViewHolder();
@@ -73,12 +73,12 @@ public class MainListViewAdapter extends BaseAdapter
 			convertView.setTag(holder);
 		}
 		else
-		{
+		{	
 			holder = (ViewHolder) convertView.getTag();
-			ObjectAnimator translateX = ObjectAnimator.ofFloat(convertView, "translationX",0f, context.getResources().getDisplayMetrics().widthPixels );
+			ObjectAnimator translateX = ObjectAnimator.ofFloat(convertView, "translationX",screenWidth/3, screenWidth );
 			AnimatorSet set = new AnimatorSet();
 			set.play(translateX);
-			set.setStartDelay( 0);
+			set.setStartDelay(0);
 			set.setDuration( 0);
 			set.start();
 		}
@@ -91,7 +91,7 @@ public class MainListViewAdapter extends BaseAdapter
 		ObjectAnimator scaleY = ObjectAnimator.ofFloat(convertView, "alpha", 0f, 1f);
 		AnimatorSet set = new AnimatorSet();
 		// set.playTogether(new Animator[]{scaleX,scaleY});
-		ObjectAnimator translateX = ObjectAnimator.ofFloat(convertView, "translationX", context.getResources().getDisplayMetrics().widthPixels, 0f);
+		ObjectAnimator translateX = ObjectAnimator.ofFloat(convertView, "translationX", screenWidth, 0f);
 		set.play(translateX);
 		set.setStartDelay(100);
 		set.setDuration(300);

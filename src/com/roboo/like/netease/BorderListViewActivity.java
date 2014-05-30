@@ -3,6 +3,7 @@ package com.roboo.like.netease;
 import java.util.Arrays;
 
 import android.os.Bundle;
+import android.support.v4.app.ListFragment;
 
 import com.roboo.like.netease.adapter.BroderListAdapter;
 import com.roboo.like.netease.view.BorderListView;
@@ -13,7 +14,7 @@ public class BorderListViewActivity extends BaseActivity
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
-		
+		 
 		super.onCreate(savedInstanceState);
 		 setTVTitle(R.string.tv_border_listview);
 		 //TODO setContentView Tag

@@ -48,11 +48,18 @@
     <string name="tv_other_setting">其他设置</string>
     <string name="tv_newcomer_guide">新手引导</string>
     <string name="tv_about">关于</string>
+    <string  name="tv_swipe_listview">滑动操作ListView</string>
+    <string  name="tv_rebound_scrollview">ScrollView回弹</string>
+    <string name="tv_twoway">TwoWay</string>
+    <string name="tv_overscroll_listview">OverScroll ListView</string>
+    <string name="tv_vertical_viewpager">垂直ViewPager</string>
     <string name="tv_color_picker">颜色选择器</string>
+    <string name="tv_recycle">Recycle</string>
     <string name="tv_list_nav">List导航模式</string>
     <string name="tv_reside_menu">ResideMenu模式</string>
     <string name="tv_short_cut">创建桌面快捷方式</string>
     <string name="tv_attr">自定义属性</string>
+    <string name="tv_drag_gridview">拖拽GridView</string>
     <string name="tv_add_view">添加View</string>
     <string name="tv_round_spin">圆形转盘</string>
     <string name="tv_phone_gap">PhoneGap</string>
@@ -117,6 +124,9 @@
     <string name="tv_matrix_symmetrical_vertical">对称-垂直  </string>
     <string name="tv_matrix_symmetrical_x_y">对称-对称轴为直线y=x</string>
     <string name="tv_3d_rotate">3D旋转</string>
+    <string name="recycled">Recycled?</string>
+    <string name="position">Position</string>
+    <string name="word">Word</string>
 
     <string-array name="planets_array">
         <item>Mercury</item>

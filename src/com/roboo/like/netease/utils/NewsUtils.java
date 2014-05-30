@@ -190,7 +190,7 @@ public class NewsUtils
 							
 							String title = h2Element.text();
 							String subTitle = pElement.text();
-							String src = imgElement.attr("src");
+							String src = imgElement.attr("data-original");
 							news.setSrc(src);
 							news.setMd5(md5);
 							news.setUrl(url);
@@ -234,7 +234,7 @@ public class NewsUtils
 							
 							String title = h2Element.text();
 							String subTitle = pElement.text();
-							String src = imgElement.attr("src");
+							String src = imgElement.attr("data-original");
 							news.setSrc(src);
 							news.setMd5(md5);
 							news.setUrl(url);

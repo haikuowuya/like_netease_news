@@ -1,9 +1,9 @@
 package com.roboo.like.netease;
 
+import com.roboo.like.netease.fragment.WelcomeFragment;
 import com.roboo.like.netease.view.CirclePageIndicator;
 import com.roboo.like.netease.view.MyViewPager;
 import com.roboo.like.netease.view.MyViewPager.TransitionEffect;
-import com.roboo.like.netease.view.fragment.WelcomeFragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

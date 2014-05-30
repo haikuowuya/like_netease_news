@@ -1,6 +1,6 @@
 package com.roboo.like.netease;
 
-import com.roboo.like.netease.view.fragment.DSLVFragment;
+import com.roboo.like.netease.fragment.DSLVFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -42,10 +42,10 @@ public class SubscribedActivity extends BaseActivity implements OnClickListener
 	{
 		switch (v.getId())
 		{
-		case R.id.ibtn_subscribe:// Íê³É
+		case R.id.ibtn_subscribe:// ï¿½ï¿½ï¿½
 			this.finish();
 			break;
-		case R.id.btn_add_subcribe:// Ìí¼Ó¶©ÔÄ
+		case R.id.btn_add_subcribe:// ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½
 			addSubcribe();
 		default:
 			super.onClick(v);

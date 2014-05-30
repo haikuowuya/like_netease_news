@@ -14,5 +14,6 @@
         android:minWidth="100dp"
         android:scaleType="center"
         android:src="@drawable/ic_launcher" />
+   
 
 </RelativeLayout>

@@ -7,9 +7,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.view.Window;
 
+import com.roboo.like.netease.fragment.ShowImageFragment;
 import com.roboo.like.netease.view.CirclePageIndicator;
 import com.roboo.like.netease.view.MyViewPager;
-import com.roboo.like.netease.view.fragment.ShowImageFragment;
 
 public class ShowImageActivity extends BaseActivity
 {

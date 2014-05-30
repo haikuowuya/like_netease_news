@@ -1,0 +1,6 @@
+<com.roboo.like.netease.view.TwoWayView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    style="@style/TwoWayView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:drawSelectorOnTop="false" />

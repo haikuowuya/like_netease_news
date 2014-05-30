@@ -17,7 +17,8 @@
     <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-
+    <uses-permission android:name="android.permission.VIBRATE"/>
+	
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> 
     <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
      <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" /> 
@@ -48,6 +49,7 @@
 
         <activity
             android:logo="@drawable/ic_launcher"
+            android:excludeFromRecents="true"
             android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,12 +63,17 @@
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".PlugInManagerActivity" />
         <activity android:name=".SettingsActivity" />
+        <activity android:name=".SwipeListViewActivity" />
         <activity android:name=".FloatImageTextActivity" />
+        <activity android:name=".RecycleActivity" />
         <activity android:name=".PinterestActivity" />
         <activity android:name=".PinterestActivity2" />
+        <activity android:name=".VerticalViewPagerActivity" />
         <activity android:name=".ImageDetailsActivity" />
         <activity android:name=".FragmentAnimationActivity" />
+        <activity android:name=".OverScrollListViewActivity" />
         <activity android:name=".WeatherActivity" />
+        <activity android:name=".TwoWayActivity" />
         <activity android:name=".ResideMenuActivity" />
         <activity android:name=".MailActivity" />
         <activity android:name=".OpenGLActivity" />
@@ -91,6 +98,8 @@
         <activity android:name=".SurfaceViewActivity" />
         <activity android:name=".FragmentLoaderActivity" />
         <activity android:name=".ScrollerActivity" />
+        <activity android:name=".ReboundActivity" />
+        <activity android:name=".ReboundActivity2" />
         <activity android:name=".ServerSocketActivity" />
         <activity
             android:name=".SocketActivity"
@@ -111,6 +120,7 @@
         <activity android:name=".AccountActivity" />
         <activity android:name=".ShowImageActivity" />
         <activity android:name=".NewsActivity" />
+        <activity android:name=".DragGridViewActivity" />
         <activity android:name=".BitmapActivity" />
         <activity android:name=".ColorPickerActivity" />
         <activity android:name=".widget.TextViewActivity" />

@@ -21,9 +21,10 @@
         </PreferenceScreen>
     </PreferenceCategory>
     <!-- system settings -->
-    <PreferenceCategory android:title="@string/tv_system_setting" >
+    <PreferenceCategory android:title="@string/tv_system_setting"  >
         <PreferenceScreen
             android:key="tv_font"
+            
             android:title="@string/tv_font_setting" >
             <intent
                 android:targetClass="com.roboo.like.netease.AccountActivity"
@@ -235,6 +236,41 @@
         <PreferenceScreen android:title="@string/tv_color_picker" >
             <intent
                 android:targetClass="com.roboo.like.netease.ColorPickerActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_recycle" >
+            <intent
+                android:targetClass="com.roboo.like.netease.RecycleActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_vertical_viewpager" >
+            <intent
+                android:targetClass="com.roboo.like.netease.VerticalViewPagerActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_overscroll_listview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.OverScrollListViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_drag_gridview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.DragGridViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_twoway" >
+            <intent
+                android:targetClass="com.roboo.like.netease.TwoWayActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_swipe_listview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.SwipeListViewActivity"
+                android:targetPackage="com.roboo.like.netease" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/tv_rebound_scrollview" >
+            <intent
+                android:targetClass="com.roboo.like.netease.ReboundActivity"
                 android:targetPackage="com.roboo.like.netease" />
         </PreferenceScreen>
     </PreferenceCategory>

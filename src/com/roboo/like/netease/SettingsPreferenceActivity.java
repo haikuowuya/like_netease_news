@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 
-import com.roboo.like.netease.view.fragment.SettingsPreferenceFragment;
+import com.roboo.like.netease.fragment.SettingsPreferenceFragment;
 
 public class SettingsPreferenceActivity extends BaseActivity
 {

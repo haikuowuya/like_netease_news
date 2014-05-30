@@ -6,5 +6,9 @@
     <color name="imageview_pressed_color">#88BC1100</color>
     <color name="actionbar_color">#BC1100</color>
     <color name="holo_blue">#FF33E5B5</color>
+        <color name="light_gray">#eeeeee</color>
+    <color name="medium_gray">#dddddd</color>
+    <color name="dark_gray">#cccccc</color>
+    <color name="list_item_default_color">#B3B3B3</color>
 
 </resources>

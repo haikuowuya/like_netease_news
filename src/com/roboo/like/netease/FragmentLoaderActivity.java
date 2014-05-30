@@ -1,6 +1,6 @@
 package com.roboo.like.netease;
 
-import com.roboo.like.netease.view.fragment.LoaderFragment;
+import com.roboo.like.netease.fragment.LoaderFragment;
 
 import android.os.Bundle;
 import android.widget.TextView;

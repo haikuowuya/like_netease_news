@@ -1,9 +1,9 @@
 package com.roboo.like.netease;
 
 import com.roboo.like.netease.abs.ptr.PullToRefreshAttacher;
+import com.roboo.like.netease.fragment.DSLVFragment;
+import com.roboo.like.netease.fragment.MainFragment;
 import com.roboo.like.netease.model.NewsCategory;
-import com.roboo.like.netease.view.fragment.DSLVFragment;
-import com.roboo.like.netease.view.fragment.MainFragment;
 
 import android.os.Bundle;
 

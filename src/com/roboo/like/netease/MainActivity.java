@@ -37,16 +37,16 @@ import com.roboo.like.netease.abs.ptr.PullToRefreshAttacher;
 import com.roboo.like.netease.dao.INewsCategoryDao;
 import com.roboo.like.netease.dao.impl.NewsCategoryDaoImpl;
 import com.roboo.like.netease.database.DBHelper;
+import com.roboo.like.netease.fragment.LeftMenuFragment;
+import com.roboo.like.netease.fragment.MainFragment;
+import com.roboo.like.netease.fragment.QuickContactFragment;
+import com.roboo.like.netease.fragment.RightMenuFragment;
 import com.roboo.like.netease.model.NewsCategory;
 import com.roboo.like.netease.slidingmenu.SlidingFragmentActivity;
 import com.roboo.like.netease.slidingmenu.SlidingMenu;
 import com.roboo.like.netease.view.MyViewPager;
 import com.roboo.like.netease.view.MyViewPager.TransitionEffect;
 import com.roboo.like.netease.view.PagerSlidingTabStrip;
-import com.roboo.like.netease.view.fragment.LeftMenuFragment;
-import com.roboo.like.netease.view.fragment.MainFragment;
-import com.roboo.like.netease.view.fragment.QuickContactFragment;
-import com.roboo.like.netease.view.fragment.RightMenuFragment;
 
 @SuppressLint("NewApi")
 public class MainActivity extends SlidingFragmentActivity implements View.OnClickListener

@@ -1,5 +1,6 @@
 package com.roboo.like.netease;
 
+import android.app.DialogFragment;
 import android.os.Bundle;
 
 public class ColorPickerActivity extends BaseActivity
@@ -11,5 +12,6 @@ public class ColorPickerActivity extends BaseActivity
 		setTVTitle(R.string.tv_color_picker);
 		// TODO setContentView Tag
 		setContentView(R.layout.activity_color_picker);
+ 
 	}
 }

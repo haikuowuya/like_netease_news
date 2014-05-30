@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ForegroundColorSpan;
+import android.text.style.UnderlineSpan;
 import android.widget.TextView;
 
 import com.roboo.like.netease.BaseActivity;
@@ -37,7 +38,10 @@ public class TextViewActivity extends BaseActivity
 		 this.mTvCustomText.setText(CUSTOM);
 		SpannableString spannableString = new SpannableString(CUSTOM_1);
 		ForegroundColorSpan redColorSpan = new ForegroundColorSpan(Color.RED);
+		UnderlineSpan underlineSpan = new UnderlineSpan();
 		spannableString.setSpan(redColorSpan, 6, 8, SpannableString.SPAN_INCLUSIVE_EXCLUSIVE);
+		spannableString.setSpan(underlineSpan, 6, 8, SpannableString.SPAN_INCLUSIVE_EXCLUSIVE);
+		
 		this.mTvCustomText1.setMovementMethod(LinkMovementMethod.getInstance());
 		this.mTvCustomText1.setText(spannableString);
 	}

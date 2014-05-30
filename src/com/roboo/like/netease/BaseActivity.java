@@ -2,6 +2,7 @@ package com.roboo.like.netease;
 
 import android.annotation.TargetApi;
 import android.app.ActionBar;
+import android.app.ListActivity;
 import android.content.pm.ActivityInfo;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -15,14 +16,15 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
 
 import com.roboo.like.netease.commons.CrashException;
 import com.roboo.like.netease.dao.ICityDao;
 import com.roboo.like.netease.dao.impl.CityDaoImpl;
 import com.roboo.like.netease.database.DBHelper;
+import com.roboo.like.netease.fragment.ShareDialogFragment;
 import com.roboo.like.netease.view.MyProgressBar;
-import com.roboo.like.netease.view.fragment.ShareDialogFragment;
 
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class BaseActivity extends FragmentActivity implements OnClickListener
@@ -41,20 +43,21 @@ public class BaseActivity extends FragmentActivity implements OnClickListener
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
+		 
 		NewsApplication.mActivities.add(this);
 		Thread.setDefaultUncaughtExceptionHandler(CrashException.getInstance(this));
-		//Debug.startMethodTracing("/data/data/"+getPackageName()+"/hello_trace");
+		// Debug.startMethodTracing("/data/data/"+getPackageName()+"/hello_trace");
 		ViewServer.get(this).addWindow(this);
 		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		if (isActionBarAvailable())
 		{
 			customActionBar();
+
 		}
-		 
 	}
 
 	/**
-	 * TODO  @see {@link ActionBar}
+	 * TODO @see {@link ActionBar}
 	 * 
 	 */
 	private void customActionBar()
@@ -69,14 +72,15 @@ public class BaseActivity extends FragmentActivity implements OnClickListener
 		this.mActionBar.setSplitBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_background));
 		this.mActionBar.setCustomView(mCustomView);
 		this.mIbtnLeftTop.setOnClickListener(this);
-		if(this  instanceof MainActivity)
+		if (this instanceof MainActivity)
 		{
-		//	findViewById(R.id.iv_up).setVisibility(View.VISIBLE);
+			// findViewById(R.id.iv_up).setVisibility(View.VISIBLE);
 			this.mActionBar.setHomeButtonEnabled(false);
 			this.mIbtnLeftTop.setImageResource(R.drawable.ic_nav);
 			this.mActionBar.setTitle("");
 		}
 	}
+
 	/***
 	 * TODO @see {@link ActionBar#setCustomView(View)}
 	 */
@@ -241,7 +245,7 @@ public class BaseActivity extends FragmentActivity implements OnClickListener
 
 	@Override
 	public void onActionModeFinished(ActionMode mode)
-	{	 
+	{
 		super.onActionModeFinished(mode);
 	}
 

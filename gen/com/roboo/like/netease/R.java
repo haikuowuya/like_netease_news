@@ -664,11 +664,15 @@ containing a value of this type.
         public static final int actionbar_color=0x7f0b0006;
         public static final int background_tab_pressed=0x7f0b0004;
         public static final int background_window=0x7f0b0003;
+        public static final int dark_gray=0x7f0b000a;
         public static final int default_circle_indicator_fill_color=0x7f0b0000;
         public static final int default_circle_indicator_page_color=0x7f0b0001;
         public static final int default_circle_indicator_stroke_color=0x7f0b0002;
         public static final int holo_blue=0x7f0b0007;
         public static final int imageview_pressed_color=0x7f0b0005;
+        public static final int light_gray=0x7f0b0008;
+        public static final int list_item_default_color=0x7f0b000b;
+        public static final int medium_gray=0x7f0b0009;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -681,6 +685,7 @@ containing a value of this type.
         public static final int activity_vertical_margin=0x7f0d0003;
         public static final int default_circle_indicator_radius=0x7f0d0000;
         public static final int default_circle_indicator_stroke_width=0x7f0d0001;
+        public static final int divider_height=0x7f0d0008;
         public static final int item_height=0x7f0d0005;
         public static final int pager_margin=0x7f0d0007;
         public static final int section_div_height=0x7f0d0006;
@@ -692,329 +697,363 @@ containing a value of this type.
         public static final int action_bar_background=0x7f020002;
         public static final int action_search=0x7f020003;
         public static final int actionbar_bottom=0x7f020004;
-        public static final int anim=0x7f020005;
-        public static final int background_card=0x7f020006;
-        public static final int background_tab=0x7f020007;
-        public static final int background_tabs=0x7f020008;
-        public static final int background_tabs_diagonal=0x7f020009;
-        public static final int btn_start_experience_selector=0x7f02000a;
-        public static final int contact=0x7f02000b;
-        public static final int drawer_shadow=0x7f02000c;
-        public static final int earth=0x7f02000d;
-        public static final int empty_photo=0x7f02000e;
-        public static final int ibtn_selector=0x7f02000f;
-        public static final int ic_action_bar_add_view=0x7f020010;
-        public static final int ic_action_bar_home=0x7f020011;
-        public static final int ic_action_bar_location=0x7f020012;
-        public static final int ic_action_bar_settings=0x7f020013;
-        public static final int ic_action_bar_share=0x7f020014;
-        public static final int ic_action_user=0x7f020015;
-        public static final int ic_add=0x7f020016;
-        public static final int ic_back=0x7f020017;
-        public static final int ic_back_fragment=0x7f020018;
-        public static final int ic_bottom_undline=0x7f020019;
-        public static final int ic_btn_background=0x7f02001a;
-        public static final int ic_caijing_normal=0x7f02001b;
-        public static final int ic_caijing_selected=0x7f02001c;
-        public static final int ic_checked=0x7f02001d;
-        public static final int ic_day=0x7f02001e;
-        public static final int ic_drag=0x7f02001f;
-        public static final int ic_drawer=0x7f020020;
-        public static final int ic_empty=0x7f020021;
-        public static final int ic_empty_photo=0x7f020022;
-        public static final int ic_error=0x7f020023;
-        public static final int ic_follow=0x7f020024;
-        public static final int ic_frame=0x7f020025;
-        public static final int ic_front_fragment=0x7f020026;
-        public static final int ic_gesture=0x7f020027;
-        public static final int ic_gif=0x7f020028;
-        public static final int ic_go_arrow=0x7f020029;
-        public static final int ic_image=0x7f02002a;
-        public static final int ic_junshi_normal=0x7f02002b;
-        public static final int ic_junshi_selected=0x7f02002c;
-        public static final int ic_keji_normal=0x7f02002d;
-        public static final int ic_keji_selected=0x7f02002e;
-        public static final int ic_launcher=0x7f02002f;
-        public static final int ic_launcher_actionbar=0x7f020030;
-        public static final int ic_launcher_chrome=0x7f020031;
-        public static final int ic_launcher_gmail=0x7f020032;
-        public static final int ic_launcher_gmaps=0x7f020033;
-        public static final int ic_launcher_gplus=0x7f020034;
-        public static final int ic_lingyimian_normal=0x7f020035;
-        public static final int ic_lingyimian_selected=0x7f020036;
-        public static final int ic_list_remove=0x7f020037;
-        public static final int ic_matrix=0x7f020038;
-        public static final int ic_menu_background=0x7f020039;
-        public static final int ic_menu_more=0x7f02003a;
-        public static final int ic_micro_life=0x7f02003b;
-        public static final int ic_native=0x7f02003c;
-        public static final int ic_nav=0x7f02003d;
-        public static final int ic_nba_normal=0x7f02003e;
-        public static final int ic_nba_selected=0x7f02003f;
-        public static final int ic_netease=0x7f020040;
-        public static final int ic_netease_about=0x7f020041;
-        public static final int ic_netease_about_1=0x7f020042;
-        public static final int ic_netease_logo=0x7f020043;
-        public static final int ic_netease_mail=0x7f020044;
-        public static final int ic_news=0x7f020045;
-        public static final int ic_news_divider=0x7f020046;
-        public static final int ic_night=0x7f020047;
-        public static final int ic_password=0x7f020048;
-        public static final int ic_play=0x7f020049;
-        public static final int ic_plug_in_close=0x7f02004a;
-        public static final int ic_plug_in_open=0x7f02004b;
-        public static final int ic_qiche_normal=0x7f02004c;
-        public static final int ic_qiche_selected=0x7f02004d;
-        public static final int ic_remove=0x7f02004e;
-        public static final int ic_search=0x7f02004f;
-        public static final int ic_search_city_hint=0x7f020050;
-        public static final int ic_search_news=0x7f020051;
-        public static final int ic_setting=0x7f020052;
-        public static final int ic_shadow=0x7f020053;
-        public static final int ic_share_email=0x7f020054;
-        public static final int ic_share_netease=0x7f020055;
-        public static final int ic_share_qq_weibo=0x7f020056;
-        public static final int ic_share_renren=0x7f020057;
-        public static final int ic_share_sina=0x7f020058;
-        public static final int ic_share_sms=0x7f020059;
-        public static final int ic_shehui_normal=0x7f02005a;
-        public static final int ic_shehui_selected=0x7f02005b;
-        public static final int ic_shouji_normal=0x7f02005c;
-        public static final int ic_shouji_selected=0x7f02005d;
-        public static final int ic_stub=0x7f02005e;
-        public static final int ic_subscribe_add=0x7f02005f;
-        public static final int ic_subscribe_item=0x7f020060;
-        public static final int ic_subscribe_remove=0x7f020061;
-        public static final int ic_subscribe_up=0x7f020062;
-        public static final int ic_surface_view_image=0x7f020063;
-        public static final int ic_tiyu_selected=0x7f020064;
-        public static final int ic_tiyue_normal=0x7f020065;
-        public static final int ic_topic=0x7f020066;
-        public static final int ic_unchecked=0x7f020067;
-        public static final int ic_up=0x7f020068;
-        public static final int ic_user=0x7f020069;
-        public static final int ic_username=0x7f02006a;
-        public static final int ic_viewpager_first=0x7f02006b;
-        public static final int ic_vote=0x7f02006c;
-        public static final int ic_weather=0x7f02006d;
-        public static final int ic_weather_background=0x7f02006e;
-        public static final int ic_weather_background_clear=0x7f02006f;
-        public static final int ic_weather_background_cloudy=0x7f020070;
-        public static final int ic_weather_background_cloudy_day=0x7f020071;
-        public static final int ic_weather_background_dust=0x7f020072;
-        public static final int ic_weather_background_fog=0x7f020073;
-        public static final int ic_weather_background_rain=0x7f020074;
-        public static final int ic_weather_background_snow=0x7f020075;
-        public static final int ic_weather_clear=0x7f020076;
-        public static final int ic_weather_cloudy=0x7f020077;
-        public static final int ic_weather_cloudy_day=0x7f020078;
-        public static final int ic_weather_dust=0x7f020079;
-        public static final int ic_weather_fog=0x7f02007a;
-        public static final int ic_weather_na=0x7f02007b;
-        public static final int ic_weather_rain=0x7f02007c;
-        public static final int ic_weather_snow=0x7f02007d;
-        public static final int ic_wifi_download=0x7f02007e;
-        public static final int ic_yule_normal=0x7f02007f;
-        public static final int ic_yule_selected=0x7f020080;
-        public static final int ic_zhongchao_normal=0x7f020081;
-        public static final int ic_zhongchao_selected=0x7f020082;
-        public static final int image1=0x7f020083;
-        public static final int image2=0x7f020084;
-        public static final int image3=0x7f020085;
-        public static final int image4=0x7f020086;
-        public static final int image5=0x7f020087;
-        public static final int image6=0x7f020088;
-        public static final int jupiter=0x7f020089;
-        public static final int linearlayout_divider=0x7f02008a;
-        public static final int mars=0x7f02008b;
-        public static final int menu1=0x7f02008c;
-        public static final int menu2=0x7f02008d;
-        public static final int menu3=0x7f02008e;
-        public static final int menu4=0x7f02008f;
-        public static final int menu5=0x7f020090;
-        public static final int menu6=0x7f020091;
-        public static final int menu7=0x7f020092;
-        public static final int mercury=0x7f020093;
-        public static final int neptune=0x7f020094;
-        public static final int nine_patch=0x7f020095;
-        public static final int ptr_progress_horizontal_holo_center=0x7f020096;
-        public static final int ptr_progress_indeterminate_horizontal_holo=0x7f020097;
-        public static final int ptr_progress_primary_holo=0x7f020098;
-        public static final int ptr_progressbar_indeterminate_holo1=0x7f020099;
-        public static final int ptr_progressbar_indeterminate_holo2=0x7f02009a;
-        public static final int ptr_progressbar_indeterminate_holo3=0x7f02009b;
-        public static final int ptr_progressbar_indeterminate_holo4=0x7f02009c;
-        public static final int ptr_progressbar_indeterminate_holo5=0x7f02009d;
-        public static final int ptr_progressbar_indeterminate_holo6=0x7f02009e;
-        public static final int ptr_progressbar_indeterminate_holo7=0x7f02009f;
-        public static final int ptr_progressbar_indeterminate_holo8=0x7f0200a0;
-        public static final int saturn=0x7f0200a1;
-        public static final int section_toast=0x7f0200a2;
-        public static final int tabs_pattern=0x7f0200a3;
-        public static final int tabs_pattern_diagonal=0x7f0200a4;
-        public static final int uranus=0x7f0200a5;
-        public static final int venus=0x7f0200a6;
+        public static final int add=0x7f020005;
+        public static final int anim=0x7f020006;
+        public static final int arrow_up=0x7f020007;
+        public static final int avatar_default=0x7f020008;
+        public static final int background_card=0x7f020009;
+        public static final int background_tab=0x7f02000a;
+        public static final int background_tabs=0x7f02000b;
+        public static final int background_tabs_diagonal=0x7f02000c;
+        public static final int btn_start_experience_selector=0x7f02000d;
+        public static final int button_bg_normal=0x7f02000e;
+        public static final int button_bg_pressed=0x7f02000f;
+        public static final int card_avatar_bar=0x7f020010;
+        public static final int card_whole=0x7f020011;
+        public static final int contact=0x7f020012;
+        public static final int drawer_shadow=0x7f020013;
+        public static final int earth=0x7f020014;
+        public static final int empty_photo=0x7f020015;
+        public static final int ibtn_selector=0x7f020016;
+        public static final int ic_action_bar_add_view=0x7f020017;
+        public static final int ic_action_bar_home=0x7f020018;
+        public static final int ic_action_bar_location=0x7f020019;
+        public static final int ic_action_bar_settings=0x7f02001a;
+        public static final int ic_action_bar_share=0x7f02001b;
+        public static final int ic_action_user=0x7f02001c;
+        public static final int ic_add=0x7f02001d;
+        public static final int ic_back=0x7f02001e;
+        public static final int ic_back_fragment=0x7f02001f;
+        public static final int ic_bottom_undline=0x7f020020;
+        public static final int ic_btn_background=0x7f020021;
+        public static final int ic_caijing_normal=0x7f020022;
+        public static final int ic_caijing_selected=0x7f020023;
+        public static final int ic_checked=0x7f020024;
+        public static final int ic_day=0x7f020025;
+        public static final int ic_drag=0x7f020026;
+        public static final int ic_drawer=0x7f020027;
+        public static final int ic_empty=0x7f020028;
+        public static final int ic_empty_photo=0x7f020029;
+        public static final int ic_error=0x7f02002a;
+        public static final int ic_follow=0x7f02002b;
+        public static final int ic_frame=0x7f02002c;
+        public static final int ic_front_fragment=0x7f02002d;
+        public static final int ic_gesture=0x7f02002e;
+        public static final int ic_gif=0x7f02002f;
+        public static final int ic_go_arrow=0x7f020030;
+        public static final int ic_image=0x7f020031;
+        public static final int ic_junshi_normal=0x7f020032;
+        public static final int ic_junshi_selected=0x7f020033;
+        public static final int ic_keji_normal=0x7f020034;
+        public static final int ic_keji_selected=0x7f020035;
+        public static final int ic_launcher=0x7f020036;
+        public static final int ic_launcher_actionbar=0x7f020037;
+        public static final int ic_launcher_chrome=0x7f020038;
+        public static final int ic_launcher_gmail=0x7f020039;
+        public static final int ic_launcher_gmaps=0x7f02003a;
+        public static final int ic_launcher_gplus=0x7f02003b;
+        public static final int ic_lingyimian_normal=0x7f02003c;
+        public static final int ic_lingyimian_selected=0x7f02003d;
+        public static final int ic_list_remove=0x7f02003e;
+        public static final int ic_matrix=0x7f02003f;
+        public static final int ic_menu_background=0x7f020040;
+        public static final int ic_menu_more=0x7f020041;
+        public static final int ic_micro_life=0x7f020042;
+        public static final int ic_native=0x7f020043;
+        public static final int ic_nav=0x7f020044;
+        public static final int ic_nba_normal=0x7f020045;
+        public static final int ic_nba_selected=0x7f020046;
+        public static final int ic_netease=0x7f020047;
+        public static final int ic_netease_about=0x7f020048;
+        public static final int ic_netease_about_1=0x7f020049;
+        public static final int ic_netease_logo=0x7f02004a;
+        public static final int ic_netease_mail=0x7f02004b;
+        public static final int ic_news=0x7f02004c;
+        public static final int ic_news_divider=0x7f02004d;
+        public static final int ic_night=0x7f02004e;
+        public static final int ic_password=0x7f02004f;
+        public static final int ic_play=0x7f020050;
+        public static final int ic_plug_in_close=0x7f020051;
+        public static final int ic_plug_in_open=0x7f020052;
+        public static final int ic_qiche_normal=0x7f020053;
+        public static final int ic_qiche_selected=0x7f020054;
+        public static final int ic_remove=0x7f020055;
+        public static final int ic_search=0x7f020056;
+        public static final int ic_search_city_hint=0x7f020057;
+        public static final int ic_search_news=0x7f020058;
+        public static final int ic_setting=0x7f020059;
+        public static final int ic_shadow=0x7f02005a;
+        public static final int ic_share_email=0x7f02005b;
+        public static final int ic_share_netease=0x7f02005c;
+        public static final int ic_share_qq_weibo=0x7f02005d;
+        public static final int ic_share_renren=0x7f02005e;
+        public static final int ic_share_sina=0x7f02005f;
+        public static final int ic_share_sms=0x7f020060;
+        public static final int ic_shehui_normal=0x7f020061;
+        public static final int ic_shehui_selected=0x7f020062;
+        public static final int ic_shouji_normal=0x7f020063;
+        public static final int ic_shouji_selected=0x7f020064;
+        public static final int ic_stub=0x7f020065;
+        public static final int ic_subscribe_add=0x7f020066;
+        public static final int ic_subscribe_item=0x7f020067;
+        public static final int ic_subscribe_remove=0x7f020068;
+        public static final int ic_subscribe_up=0x7f020069;
+        public static final int ic_surface_view_image=0x7f02006a;
+        public static final int ic_tiyu_selected=0x7f02006b;
+        public static final int ic_tiyue_normal=0x7f02006c;
+        public static final int ic_topic=0x7f02006d;
+        public static final int ic_unchecked=0x7f02006e;
+        public static final int ic_up=0x7f02006f;
+        public static final int ic_user=0x7f020070;
+        public static final int ic_username=0x7f020071;
+        public static final int ic_viewpager_first=0x7f020072;
+        public static final int ic_vote=0x7f020073;
+        public static final int ic_weather=0x7f020074;
+        public static final int ic_weather_background=0x7f020075;
+        public static final int ic_weather_background_clear=0x7f020076;
+        public static final int ic_weather_background_cloudy=0x7f020077;
+        public static final int ic_weather_background_cloudy_day=0x7f020078;
+        public static final int ic_weather_background_dust=0x7f020079;
+        public static final int ic_weather_background_fog=0x7f02007a;
+        public static final int ic_weather_background_rain=0x7f02007b;
+        public static final int ic_weather_background_snow=0x7f02007c;
+        public static final int ic_weather_clear=0x7f02007d;
+        public static final int ic_weather_cloudy=0x7f02007e;
+        public static final int ic_weather_cloudy_day=0x7f02007f;
+        public static final int ic_weather_dust=0x7f020080;
+        public static final int ic_weather_fog=0x7f020081;
+        public static final int ic_weather_na=0x7f020082;
+        public static final int ic_weather_rain=0x7f020083;
+        public static final int ic_weather_snow=0x7f020084;
+        public static final int ic_wifi_download=0x7f020085;
+        public static final int ic_yule_normal=0x7f020086;
+        public static final int ic_yule_selected=0x7f020087;
+        public static final int ic_zhongchao_normal=0x7f020088;
+        public static final int ic_zhongchao_selected=0x7f020089;
+        public static final int image1=0x7f02008a;
+        public static final int image2=0x7f02008b;
+        public static final int image3=0x7f02008c;
+        public static final int image4=0x7f02008d;
+        public static final int image5=0x7f02008e;
+        public static final int image6=0x7f02008f;
+        public static final int jupiter=0x7f020090;
+        public static final int linearlayout_divider=0x7f020091;
+        public static final int list_disabled=0x7f020092;
+        public static final int list_focused=0x7f020093;
+        public static final int list_item_selector=0x7f020094;
+        public static final int list_longpressed=0x7f020095;
+        public static final int list_pressed=0x7f020096;
+        public static final int list_selector=0x7f020097;
+        public static final int list_selector_background_transition=0x7f020098;
+        public static final int mars=0x7f020099;
+        public static final int menu1=0x7f02009a;
+        public static final int menu2=0x7f02009b;
+        public static final int menu3=0x7f02009c;
+        public static final int menu4=0x7f02009d;
+        public static final int menu5=0x7f02009e;
+        public static final int menu6=0x7f02009f;
+        public static final int menu7=0x7f0200a0;
+        public static final int mercury=0x7f0200a1;
+        public static final int neptune=0x7f0200a2;
+        public static final int nine_patch=0x7f0200a3;
+        public static final int page_cover_car_background=0x7f0200a4;
+        public static final int ptr_progress_horizontal_holo_center=0x7f0200a5;
+        public static final int ptr_progress_indeterminate_horizontal_holo=0x7f0200a6;
+        public static final int ptr_progress_primary_holo=0x7f0200a7;
+        public static final int ptr_progressbar_indeterminate_holo1=0x7f0200a8;
+        public static final int ptr_progressbar_indeterminate_holo2=0x7f0200a9;
+        public static final int ptr_progressbar_indeterminate_holo3=0x7f0200aa;
+        public static final int ptr_progressbar_indeterminate_holo4=0x7f0200ab;
+        public static final int ptr_progressbar_indeterminate_holo5=0x7f0200ac;
+        public static final int ptr_progressbar_indeterminate_holo6=0x7f0200ad;
+        public static final int ptr_progressbar_indeterminate_holo7=0x7f0200ae;
+        public static final int ptr_progressbar_indeterminate_holo8=0x7f0200af;
+        public static final int saturn=0x7f0200b0;
+        public static final int section_toast=0x7f0200b1;
+        public static final int tabs_pattern=0x7f0200b2;
+        public static final int tabs_pattern_diagonal=0x7f0200b3;
+        public static final int title_bg=0x7f0200b4;
+        public static final int uranus=0x7f0200b5;
+        public static final int venus=0x7f0200b6;
     }
     public static final class id {
         public static final int FILL=0x7f090001;
         public static final int STROKE=0x7f090000;
-        public static final int accordion=0x7f09001f;
-        public static final int action_accordion=0x7f090092;
-        public static final int action_add_view=0x7f090086;
-        public static final int action_contact=0x7f090084;
-        public static final int action_cube_in=0x7f090089;
-        public static final int action_cube_out=0x7f09008a;
-        public static final int action_flip_horizontal=0x7f09008c;
-        public static final int action_flip_vertical=0x7f09008b;
-        public static final int action_home=0x7f09009d;
-        public static final int action_rotate_down=0x7f090091;
-        public static final int action_rotate_round_center=0x7f090094;
-        public static final int action_rotate_round_horizontal=0x7f090095;
-        public static final int action_rotate_up=0x7f090090;
-        public static final int action_scale=0x7f090096;
-        public static final int action_settings=0x7f09009e;
-        public static final int action_skew_horizontal=0x7f090097;
-        public static final int action_skew_horizontal_vertical=0x7f090099;
-        public static final int action_skew_vertical=0x7f090098;
-        public static final int action_stack=0x7f09008d;
-        public static final int action_standard=0x7f090087;
-        public static final int action_symmetrical_horizontal=0x7f09009a;
-        public static final int action_symmetrical_vertical=0x7f09009b;
-        public static final int action_symmetrical_x_y=0x7f09009c;
-        public static final int action_tablet=0x7f090088;
-        public static final int action_translate=0x7f090093;
-        public static final int action_websearch=0x7f090085;
-        public static final int action_zoom_in=0x7f09008e;
-        public static final int action_zoom_out=0x7f09008f;
-        public static final int actv_textview=0x7f090034;
-        public static final int blv_listview=0x7f090033;
-        public static final int btn_2g_3g=0x7f09005d;
-        public static final int btn_a_z=0x7f090036;
-        public static final int btn_about=0x7f090064;
-        public static final int btn_account=0x7f090057;
-        public static final int btn_add_subcribe=0x7f090068;
-        public static final int btn_app_recommand=0x7f090063;
-        public static final int btn_auto_load_more=0x7f09005e;
-        public static final int btn_bind=0x7f090058;
-        public static final int btn_cancle=0x7f090056;
-        public static final int btn_city_name=0x7f090027;
-        public static final int btn_clear_cache=0x7f09005f;
-        public static final int btn_create=0x7f09006b;
-        public static final int btn_feedback=0x7f090062;
-        public static final int btn_font_setting=0x7f090059;
-        public static final int btn_font_size_setting=0x7f09005a;
-        public static final int btn_newcomer_guide=0x7f090061;
-        public static final int btn_news_push=0x7f09005b;
-        public static final int btn_open_menu=0x7f09004e;
-        public static final int btn_plug_in=0x7f090060;
-        public static final int btn_send=0x7f090055;
-        public static final int btn_start_experience=0x7f090077;
-        public static final int btn_wifi_download=0x7f09005c;
-        public static final int center=0x7f090072;
+        public static final int accordion=0x7f090020;
+        public static final int action_accordion=0x7f0900a4;
+        public static final int action_add_view=0x7f090098;
+        public static final int action_contact=0x7f090096;
+        public static final int action_cube_in=0x7f09009b;
+        public static final int action_cube_out=0x7f09009c;
+        public static final int action_flip_horizontal=0x7f09009e;
+        public static final int action_flip_vertical=0x7f09009d;
+        public static final int action_home=0x7f0900af;
+        public static final int action_rotate_down=0x7f0900a3;
+        public static final int action_rotate_round_center=0x7f0900a6;
+        public static final int action_rotate_round_horizontal=0x7f0900a7;
+        public static final int action_rotate_up=0x7f0900a2;
+        public static final int action_scale=0x7f0900a8;
+        public static final int action_settings=0x7f0900b0;
+        public static final int action_skew_horizontal=0x7f0900a9;
+        public static final int action_skew_horizontal_vertical=0x7f0900ab;
+        public static final int action_skew_vertical=0x7f0900aa;
+        public static final int action_stack=0x7f09009f;
+        public static final int action_standard=0x7f090099;
+        public static final int action_symmetrical_horizontal=0x7f0900ac;
+        public static final int action_symmetrical_vertical=0x7f0900ad;
+        public static final int action_symmetrical_x_y=0x7f0900ae;
+        public static final int action_tablet=0x7f09009a;
+        public static final int action_translate=0x7f0900a5;
+        public static final int action_websearch=0x7f090097;
+        public static final int action_zoom_in=0x7f0900a0;
+        public static final int action_zoom_out=0x7f0900a1;
+        public static final int actv_textview=0x7f090035;
+        public static final int attention_user=0x7f090050;
+        public static final int background_img=0x7f09004d;
+        public static final int blv_listview=0x7f090034;
+        public static final int btn_2g_3g=0x7f09006a;
+        public static final int btn_a_z=0x7f090037;
+        public static final int btn_about=0x7f090071;
+        public static final int btn_account=0x7f090064;
+        public static final int btn_add_subcribe=0x7f090075;
+        public static final int btn_app_recommand=0x7f090070;
+        public static final int btn_auto_load_more=0x7f09006b;
+        public static final int btn_bind=0x7f090065;
+        public static final int btn_cancle=0x7f090063;
+        public static final int btn_city_name=0x7f090028;
+        public static final int btn_clear_cache=0x7f09006c;
+        public static final int btn_create=0x7f090078;
+        public static final int btn_feedback=0x7f09006f;
+        public static final int btn_font_setting=0x7f090066;
+        public static final int btn_font_size_setting=0x7f090067;
+        public static final int btn_newcomer_guide=0x7f09006e;
+        public static final int btn_news_push=0x7f090068;
+        public static final int btn_open_menu=0x7f09005b;
+        public static final int btn_plug_in=0x7f09006d;
+        public static final int btn_send=0x7f090062;
+        public static final int btn_start_experience=0x7f090085;
+        public static final int btn_wifi_download=0x7f090069;
+        public static final int center=0x7f090080;
         public static final int clickRemove=0x7f090002;
         public static final int click_remove=0x7f090009;
-        public static final int content_frame=0x7f09003a;
-        public static final int cpi_indicator=0x7f090066;
-        public static final int cubein=0x7f090016;
-        public static final int cubeout=0x7f090017;
+        public static final int content_frame=0x7f09003b;
+        public static final int cpi_indicator=0x7f090073;
+        public static final int cubein=0x7f090017;
+        public static final int cubeout=0x7f090018;
         public static final int drag_handle=0x7f090008;
-        public static final int drawer_layout=0x7f090039;
-        public static final int et_password=0x7f09002e;
-        public static final int et_text=0x7f090067;
-        public static final int et_username=0x7f09002d;
-        public static final int first_linear_container=0x7f090047;
+        public static final int drawer_layout=0x7f09003a;
+        public static final int et_password=0x7f09002f;
+        public static final int et_text=0x7f090074;
+        public static final int et_username=0x7f09002e;
+        public static final int first_linear_container=0x7f090049;
         public static final int flingRemove=0x7f090003;
-        public static final int fliphorizontal=0x7f090019;
-        public static final int flipvertical=0x7f090018;
-        public static final int frame_container=0x7f09003c;
-        public static final int fullscreen=0x7f090013;
-        public static final int giv_img=0x7f09003d;
-        public static final int gv_gridview=0x7f09003e;
-        public static final int ibtn_left_top=0x7f090021;
-        public static final int ibtn_location=0x7f090024;
-        public static final int ibtn_remove=0x7f09006e;
-        public static final int ibtn_search=0x7f090026;
-        public static final int ibtn_share=0x7f090025;
-        public static final int ibtn_subscribe=0x7f090044;
-        public static final int ignored_view=0x7f09004b;
-        public static final int image=0x7f090071;
-        public static final int imageView=0x7f09004c;
-        public static final int iv_background=0x7f09007d;
-        public static final int iv_icon=0x7f090081;
-        public static final int iv_image=0x7f09002a;
-        public static final int iv_image2=0x7f09004a;
-        public static final int iv_image_new=0x7f090032;
-        public static final int iv_logo=0x7f09002b;
-        public static final int iv_shadow=0x7f09007e;
-        public static final int iv_up=0x7f090020;
-        public static final int layout=0x7f090073;
-        public static final int layout_menu=0x7f090080;
-        public static final int left=0x7f090010;
-        public static final int left_drawer=0x7f09003b;
-        public static final int linear_container=0x7f090029;
-        public static final int linear_sort_key_container=0x7f09006f;
-        public static final int linear_tabs_container=0x7f090042;
-        public static final int listTextView=0x7f090082;
-        public static final int lv_list=0x7f09002f;
-        public static final int margin=0x7f090012;
-        public static final int menu_frame=0x7f090079;
-        public static final int menu_second_frame=0x7f09007a;
-        public static final int miv_image=0x7f090046;
-        public static final int mpb_progress=0x7f090028;
-        public static final int mvp_pager=0x7f090065;
+        public static final int fliphorizontal=0x7f09001a;
+        public static final int flipvertical=0x7f090019;
+        public static final int frame_container=0x7f09003e;
+        public static final int fullscreen=0x7f090014;
+        public static final int giv_img=0x7f09003f;
+        public static final int gv_gridview=0x7f090040;
+        public static final int ibtn_left_top=0x7f090022;
+        public static final int ibtn_location=0x7f090025;
+        public static final int ibtn_remove=0x7f09007c;
+        public static final int ibtn_search=0x7f090027;
+        public static final int ibtn_share=0x7f090026;
+        public static final int ibtn_subscribe=0x7f090046;
+        public static final int ignored_view=0x7f090058;
+        public static final int image=0x7f09007f;
+        public static final int imageView=0x7f090059;
+        public static final int iv_background=0x7f09008e;
+        public static final int iv_icon=0x7f090092;
+        public static final int iv_image=0x7f09002b;
+        public static final int iv_image2=0x7f09004c;
+        public static final int iv_image_new=0x7f090033;
+        public static final int iv_logo=0x7f09002c;
+        public static final int iv_shadow=0x7f09008f;
+        public static final int iv_up=0x7f090021;
+        public static final int layout=0x7f090081;
+        public static final int layout_menu=0x7f090091;
+        public static final int left=0x7f090011;
+        public static final int left_drawer=0x7f09003c;
+        public static final int linear_container=0x7f09002a;
+        public static final int linear_sort_key_container=0x7f09007d;
+        public static final int linear_tabs_container=0x7f090044;
+        public static final int list=0x7f090079;
+        public static final int listTextView=0x7f090093;
+        public static final int lv_list=0x7f090030;
+        public static final int margin=0x7f090013;
+        public static final int menu_frame=0x7f090087;
+        public static final int menu_second_frame=0x7f090088;
+        public static final int miv_image=0x7f090048;
+        public static final int mpb_progress=0x7f090029;
+        public static final int mvp_pager=0x7f090072;
         public static final int onDown=0x7f090004;
         public static final int onLongPress=0x7f090006;
         public static final int onMove=0x7f090005;
-        public static final int pager=0x7f090045;
-        public static final int pb_progress=0x7f09006c;
-        public static final int photo=0x7f09007c;
+        public static final int pager=0x7f090047;
+        public static final int pb_progress=0x7f09007a;
+        public static final int photo=0x7f09008d;
+        public static final int position=0x7f09008b;
         public static final int ptr_content=0x7f09000a;
         public static final int ptr_progress=0x7f09000d;
         public static final int ptr_text=0x7f09000c;
         public static final int ptr_text_opaque_bg=0x7f09000b;
-        public static final int relative_container=0x7f090037;
+        public static final int recycled=0x7f09008c;
+        public static final int relative_container=0x7f090038;
         public static final int reside_menu=0x7f09000f;
-        public static final int right=0x7f090011;
-        public static final int rotatedown=0x7f09001e;
-        public static final int rotateup=0x7f09001d;
-        public static final int roundProgressBar1=0x7f090030;
-        public static final int roundProgressBar2=0x7f090031;
-        public static final int second_linear_container=0x7f090048;
+        public static final int right=0x7f090012;
+        public static final int right_drawer=0x7f09003d;
+        public static final int rotatedown=0x7f09001f;
+        public static final int rotateup=0x7f09001e;
+        public static final int roundProgressBar1=0x7f090031;
+        public static final int roundProgressBar2=0x7f090032;
+        public static final int scroll_view=0x7f09004e;
+        public static final int scroll_view_head=0x7f09004f;
+        public static final int second_linear_container=0x7f09004a;
         public static final int selected_view=0x7f090007;
-        public static final int slidingmenumain=0x7f090083;
-        public static final int stack=0x7f09001a;
-        public static final int standard=0x7f090014;
-        public static final int sv_menu=0x7f09007f;
-        public static final int sv_search_view=0x7f090052;
-        public static final int tablet=0x7f090015;
-        public static final int tabs=0x7f090043;
-        public static final int text=0x7f090078;
-        public static final int textView=0x7f09004d;
-        public static final int textView1=0x7f09004f;
-        public static final int third_linear_container=0x7f090049;
-        public static final int tv_about_version=0x7f09002c;
+        public static final int slidingmenumain=0x7f090094;
+        public static final int stack=0x7f09001b;
+        public static final int standard=0x7f090015;
+        public static final int sv_menu=0x7f090090;
+        public static final int sv_search_view=0x7f09005f;
+        public static final int table_layout=0x7f090057;
+        public static final int tablet=0x7f090016;
+        public static final int tabs=0x7f090045;
+        public static final int text=0x7f090086;
+        public static final int textView=0x7f09005a;
+        public static final int textView1=0x7f09005c;
+        public static final int third_linear_container=0x7f09004b;
+        public static final int title=0x7f090095;
+        public static final int tv_about_version=0x7f09002d;
         public static final int tv_always_selected_city=0x7f09000e;
-        public static final int tv_city_name=0x7f090070;
-        public static final int tv_content=0x7f090054;
-        public static final int tv_custom_text=0x7f090069;
-        public static final int tv_custom_text_1=0x7f09006a;
-        public static final int tv_ip=0x7f090053;
-        public static final int tv_jni=0x7f090040;
-        public static final int tv_roboguice=0x7f090050;
-        public static final int tv_sort_key=0x7f090035;
-        public static final int tv_sub_title=0x7f09007b;
-        public static final int tv_temp=0x7f090075;
-        public static final int tv_text=0x7f090051;
-        public static final int tv_title=0x7f090023;
-        public static final int tv_toast=0x7f090038;
-        public static final int tv_week=0x7f090074;
-        public static final int tv_wind=0x7f090076;
-        public static final int view1=0x7f090022;
-        public static final int view2=0x7f090041;
-        public static final int wv_webview=0x7f09006d;
-        public static final int zoom_image_view=0x7f09003f;
-        public static final int zoomin=0x7f09001b;
-        public static final int zoomout=0x7f09001c;
+        public static final int tv_city_name=0x7f09007e;
+        public static final int tv_content=0x7f090061;
+        public static final int tv_custom_text=0x7f090076;
+        public static final int tv_custom_text_1=0x7f090077;
+        public static final int tv_ip=0x7f090060;
+        public static final int tv_jni=0x7f090042;
+        public static final int tv_roboguice=0x7f09005d;
+        public static final int tv_sort_key=0x7f090036;
+        public static final int tv_sub_title=0x7f090089;
+        public static final int tv_temp=0x7f090083;
+        public static final int tv_text=0x7f09005e;
+        public static final int tv_title=0x7f090024;
+        public static final int tv_toast=0x7f090039;
+        public static final int tv_week=0x7f090082;
+        public static final int tv_wind=0x7f090084;
+        public static final int user_avatar=0x7f090053;
+        public static final int user_book=0x7f090052;
+        public static final int user_des=0x7f090056;
+        public static final int user_divider_layout=0x7f090055;
+        public static final int user_name=0x7f090054;
+        public static final int user_post=0x7f090051;
+        public static final int view1=0x7f090023;
+        public static final int view2=0x7f090043;
+        public static final int viewpager=0x7f090010;
+        public static final int word=0x7f09008a;
+        public static final int wv_webview=0x7f09007b;
+        public static final int zoom_image_view=0x7f090041;
+        public static final int zoomin=0x7f09001c;
+        public static final int zoomout=0x7f09001d;
     }
     public static final class integer {
         public static final int card_flip_time_full=0x7f0c0004;
@@ -1040,65 +1079,72 @@ containing a value of this type.
         public static final int activity_fragment_animation=0x7f03000c;
         public static final int activity_fragment_loader=0x7f03000d;
         public static final int activity_gif=0x7f03000e;
-        public static final int activity_gridview_cache_adapter=0x7f03000f;
-        public static final int activity_image_detail=0x7f030010;
-        public static final int activity_jni=0x7f030011;
-        public static final int activity_layout_change_animation=0x7f030012;
-        public static final int activity_list_nav=0x7f030013;
-        public static final int activity_main=0x7f030014;
-        public static final int activity_matrix=0x7f030015;
-        public static final int activity_news=0x7f030016;
-        public static final int activity_pinterest=0x7f030017;
-        public static final int activity_pinterest2=0x7f030018;
-        public static final int activity_plug_in_manager=0x7f030019;
-        public static final int activity_property_animation=0x7f03001a;
-        public static final int activity_reside_menu=0x7f03001b;
-        public static final int activity_roboguice=0x7f03001c;
-        public static final int activity_search=0x7f03001d;
-        public static final int activity_server_socket=0x7f03001e;
-        public static final int activity_settings=0x7f03001f;
-        public static final int activity_short_cut=0x7f030020;
-        public static final int activity_show_image=0x7f030021;
-        public static final int activity_socket=0x7f030022;
-        public static final int activity_subscribed=0x7f030023;
-        public static final int activity_surface_view=0x7f030024;
-        public static final int activity_textview=0x7f030025;
-        public static final int activity_two_code=0x7f030026;
-        public static final int activity_volley=0x7f030027;
-        public static final int activity_weather=0x7f030028;
-        public static final int activity_webview=0x7f030029;
-        public static final int activity_welcome=0x7f03002a;
-        public static final int add_view_item=0x7f03002b;
-        public static final int city_list_item=0x7f03002c;
-        public static final int city_listview_header_view=0x7f03002d;
-        public static final int drawer_list_item=0x7f03002e;
-        public static final int fragment_dslv_main=0x7f03002f;
-        public static final int fragment_main_lisetview_footer_view=0x7f030030;
-        public static final int fragment_planet=0x7f030031;
-        public static final int fragment_quick_contact=0x7f030032;
-        public static final int fragment_right_menu_listview=0x7f030033;
-        public static final int fragment_share_dialog=0x7f030034;
-        public static final int fragment_show_image_imageview=0x7f030035;
-        public static final int fragment_weather=0x7f030036;
-        public static final int fragment_welcome_gridview=0x7f030037;
-        public static final int fragment_welcome_imageview=0x7f030038;
-        public static final int gridview_item=0x7f030039;
-        public static final int header_footer=0x7f03003a;
-        public static final int left_menu_list_item=0x7f03003b;
-        public static final int list_item_click_remove=0x7f03003c;
-        public static final int list_item_handle_left=0x7f03003d;
-        public static final int menu_frame=0x7f03003e;
-        public static final int menu_second_frame=0x7f03003f;
-        public static final int news_list_item=0x7f030040;
-        public static final int photo_layout=0x7f030041;
-        public static final int plug_in_list_item=0x7f030042;
-        public static final int ptr_default_header=0x7f030043;
-        public static final int residemenu=0x7f030044;
-        public static final int residemenu_item=0x7f030045;
-        public static final int section_view=0x7f030046;
-        public static final int share_gridview_item=0x7f030047;
-        public static final int slidingmenumain=0x7f030048;
-        public static final int tab_view=0x7f030049;
+        public static final int activity_gridlayout=0x7f03000f;
+        public static final int activity_gridview_cache_adapter=0x7f030010;
+        public static final int activity_image_detail=0x7f030011;
+        public static final int activity_jni=0x7f030012;
+        public static final int activity_layout_change_animation=0x7f030013;
+        public static final int activity_list_nav=0x7f030014;
+        public static final int activity_main=0x7f030015;
+        public static final int activity_matrix=0x7f030016;
+        public static final int activity_news=0x7f030017;
+        public static final int activity_pinterest=0x7f030018;
+        public static final int activity_pinterest2=0x7f030019;
+        public static final int activity_plug_in_manager=0x7f03001a;
+        public static final int activity_property_animation=0x7f03001b;
+        public static final int activity_pull_scrollview=0x7f03001c;
+        public static final int activity_rebound_scrollview=0x7f03001d;
+        public static final int activity_reside_menu=0x7f03001e;
+        public static final int activity_roboguice=0x7f03001f;
+        public static final int activity_search=0x7f030020;
+        public static final int activity_server_socket=0x7f030021;
+        public static final int activity_settings=0x7f030022;
+        public static final int activity_short_cut=0x7f030023;
+        public static final int activity_show_image=0x7f030024;
+        public static final int activity_socket=0x7f030025;
+        public static final int activity_subscribed=0x7f030026;
+        public static final int activity_surface_view=0x7f030027;
+        public static final int activity_textview=0x7f030028;
+        public static final int activity_two_code=0x7f030029;
+        public static final int activity_twoway=0x7f03002a;
+        public static final int activity_volley=0x7f03002b;
+        public static final int activity_weather=0x7f03002c;
+        public static final int activity_webview=0x7f03002d;
+        public static final int activity_welcome=0x7f03002e;
+        public static final int add_view_item=0x7f03002f;
+        public static final int city_list_item=0x7f030030;
+        public static final int city_listview_header_view=0x7f030031;
+        public static final int drawer_list_item=0x7f030032;
+        public static final int fragment_dslv_main=0x7f030033;
+        public static final int fragment_main_lisetview_footer_view=0x7f030034;
+        public static final int fragment_planet=0x7f030035;
+        public static final int fragment_quick_contact=0x7f030036;
+        public static final int fragment_right_menu_listview=0x7f030037;
+        public static final int fragment_share_dialog=0x7f030038;
+        public static final int fragment_show_image_imageview=0x7f030039;
+        public static final int fragment_weather=0x7f03003a;
+        public static final int fragment_welcome_gridview=0x7f03003b;
+        public static final int fragment_welcome_imageview=0x7f03003c;
+        public static final int gridview_item=0x7f03003d;
+        public static final int header_footer=0x7f03003e;
+        public static final int left_menu_list_item=0x7f03003f;
+        public static final int list_item_click_remove=0x7f030040;
+        public static final int list_item_handle_left=0x7f030041;
+        public static final int listview=0x7f030042;
+        public static final int menu_frame=0x7f030043;
+        public static final int menu_second_frame=0x7f030044;
+        public static final int news_list_item=0x7f030045;
+        public static final int page=0x7f030046;
+        public static final int photo_layout=0x7f030047;
+        public static final int plug_in_list_item=0x7f030048;
+        public static final int ptr_default_header=0x7f030049;
+        public static final int residemenu=0x7f03004a;
+        public static final int residemenu_item=0x7f03004b;
+        public static final int section_view=0x7f03004c;
+        public static final int share_gridview_item=0x7f03004d;
+        public static final int slidingmenumain=0x7f03004e;
+        public static final int tab_view=0x7f03004f;
+        public static final int twoway_list_item=0x7f030050;
     }
     public static final class menu {
         public static final int action_mode_menu=0x7f100000;
@@ -1114,131 +1160,142 @@ containing a value of this type.
     }
     public static final class string {
         public static final int action_contact=0x7f0e0004;
-        public static final int action_websearch=0x7f0e0076;
+        public static final int action_websearch=0x7f0e0080;
         public static final int app_name=0x7f0e0003;
-        public static final int app_not_available=0x7f0e0077;
+        public static final int app_not_available=0x7f0e0081;
         public static final int border_bottom=0x7f0e0001;
         public static final int border_top=0x7f0e0000;
-        public static final int drawer_close=0x7f0e0075;
-        public static final int drawer_open=0x7f0e0074;
+        public static final int drawer_close=0x7f0e007f;
+        public static final int drawer_open=0x7f0e007e;
         public static final int image_url=0x7f0e0002;
-        public static final int pull_to_refresh_pull_label=0x7f0e003b;
-        public static final int pull_to_refresh_refreshing_label=0x7f0e003d;
-        public static final int pull_to_refresh_release_label=0x7f0e003c;
+        public static final int position=0x7f0e007c;
+        public static final int pull_to_refresh_pull_label=0x7f0e0042;
+        public static final int pull_to_refresh_refreshing_label=0x7f0e0044;
+        public static final int pull_to_refresh_release_label=0x7f0e0043;
+        public static final int recycled=0x7f0e007b;
         public static final int tv_2g_3g_no_img=0x7f0e0028;
-        public static final int tv_3d_rotate=0x7f0e0073;
+        public static final int tv_3d_rotate=0x7f0e007a;
         public static final int tv_about=0x7f0e002e;
-        public static final int tv_about_version=0x7f0e0037;
-        public static final int tv_accordion=0x7f0e0065;
+        public static final int tv_about_version=0x7f0e003e;
+        public static final int tv_accordion=0x7f0e006c;
         public static final int tv_account=0x7f0e0020;
         public static final int tv_account_setting=0x7f0e0022;
         public static final int tv_action_home=0x7f0e0006;
         public static final int tv_action_mode=0x7f0e0005;
         public static final int tv_add_subscribe=0x7f0e0008;
-        public static final int tv_add_view=0x7f0e0034;
-        public static final int tv_always_selcted_city=0x7f0e003a;
-        public static final int tv_android_volley=0x7f0e0050;
-        public static final int tv_app_recommand=0x7f0e0038;
-        public static final int tv_attr=0x7f0e0033;
+        public static final int tv_add_view=0x7f0e003b;
+        public static final int tv_always_selcted_city=0x7f0e0041;
+        public static final int tv_android_volley=0x7f0e0057;
+        public static final int tv_app_recommand=0x7f0e003f;
+        public static final int tv_attr=0x7f0e0039;
         public static final int tv_auto_load_more=0x7f0e002a;
         public static final int tv_bind=0x7f0e0021;
         public static final int tv_bitmap=0x7f0e000e;
-        public static final int tv_border_listview=0x7f0e0055;
-        public static final int tv_cancle=0x7f0e0068;
+        public static final int tv_border_listview=0x7f0e005c;
+        public static final int tv_cancle=0x7f0e006f;
         public static final int tv_city_list=0x7f0e000c;
         public static final int tv_city_list2=0x7f0e000d;
         public static final int tv_click_load_more=0x7f0e0014;
-        public static final int tv_client_socket=0x7f0e004e;
-        public static final int tv_color_picker=0x7f0e002f;
-        public static final int tv_crash=0x7f0e004d;
-        public static final int tv_create=0x7f0e0059;
-        public static final int tv_cube_in=0x7f0e0043;
-        public static final int tv_cube_out=0x7f0e0044;
-        public static final int tv_drawer_layout=0x7f0e0049;
+        public static final int tv_client_socket=0x7f0e0055;
+        public static final int tv_color_picker=0x7f0e0034;
+        public static final int tv_crash=0x7f0e0054;
+        public static final int tv_create=0x7f0e0060;
+        public static final int tv_cube_in=0x7f0e004a;
+        public static final int tv_cube_out=0x7f0e004b;
+        public static final int tv_drag_gridview=0x7f0e003a;
+        public static final int tv_drawer_layout=0x7f0e0050;
         public static final int tv_edit_subscribe=0x7f0e0007;
         public static final int tv_edittext_hint=0x7f0e0029;
-        public static final int tv_feedback=0x7f0e0039;
-        public static final int tv_flip_horizontal=0x7f0e0046;
-        public static final int tv_flip_vertical=0x7f0e0045;
-        public static final int tv_float_image_text=0x7f0e005f;
+        public static final int tv_feedback=0x7f0e0040;
+        public static final int tv_flip_horizontal=0x7f0e004d;
+        public static final int tv_flip_vertical=0x7f0e004c;
+        public static final int tv_float_image_text=0x7f0e0066;
         public static final int tv_font_setting=0x7f0e0024;
         public static final int tv_font_size_setting=0x7f0e0025;
-        public static final int tv_fragment_animation=0x7f0e005d;
-        public static final int tv_fragment_loader=0x7f0e005c;
-        public static final int tv_gif=0x7f0e004c;
-        public static final int tv_gridview_cache_adapter=0x7f0e0062;
-        public static final int tv_image_detail=0x7f0e0040;
-        public static final int tv_interest=0x7f0e0041;
-        public static final int tv_jni=0x7f0e004a;
-        public static final int tv_layout_change_animation=0x7f0e0051;
-        public static final int tv_list_nav=0x7f0e0030;
+        public static final int tv_fragment_animation=0x7f0e0064;
+        public static final int tv_fragment_loader=0x7f0e0063;
+        public static final int tv_gif=0x7f0e0053;
+        public static final int tv_gridview_cache_adapter=0x7f0e0069;
+        public static final int tv_image_detail=0x7f0e0047;
+        public static final int tv_interest=0x7f0e0048;
+        public static final int tv_jni=0x7f0e0051;
+        public static final int tv_layout_change_animation=0x7f0e0058;
+        public static final int tv_list_nav=0x7f0e0036;
         public static final int tv_loading_city_data=0x7f0e0019;
         public static final int tv_local_broadcast_manager=0x7f0e001b;
         public static final int tv_login=0x7f0e0018;
         public static final int tv_manual_clear_cache=0x7f0e002b;
-        public static final int tv_matrix=0x7f0e0053;
-        public static final int tv_matrix_rotate_round_center=0x7f0e006a;
-        public static final int tv_matrix_rotate_round_horizontal=0x7f0e006b;
-        public static final int tv_matrix_scale=0x7f0e006c;
-        public static final int tv_matrix_skew_horizontal=0x7f0e006d;
-        public static final int tv_matrix_skew_horizontal_vertical=0x7f0e006f;
-        public static final int tv_matrix_skew_vertical=0x7f0e006e;
-        public static final int tv_matrix_symmetrical_horizontal=0x7f0e0070;
-        public static final int tv_matrix_symmetrical_vertical=0x7f0e0071;
-        public static final int tv_matrix_symmetrical_x_y=0x7f0e0072;
-        public static final int tv_matrix_translate=0x7f0e0069;
+        public static final int tv_matrix=0x7f0e005a;
+        public static final int tv_matrix_rotate_round_center=0x7f0e0071;
+        public static final int tv_matrix_rotate_round_horizontal=0x7f0e0072;
+        public static final int tv_matrix_scale=0x7f0e0073;
+        public static final int tv_matrix_skew_horizontal=0x7f0e0074;
+        public static final int tv_matrix_skew_horizontal_vertical=0x7f0e0076;
+        public static final int tv_matrix_skew_vertical=0x7f0e0075;
+        public static final int tv_matrix_symmetrical_horizontal=0x7f0e0077;
+        public static final int tv_matrix_symmetrical_vertical=0x7f0e0078;
+        public static final int tv_matrix_symmetrical_x_y=0x7f0e0079;
+        public static final int tv_matrix_translate=0x7f0e0070;
         public static final int tv_netease_mail=0x7f0e001a;
         public static final int tv_newcomer_guide=0x7f0e002d;
-        public static final int tv_news_detail=0x7f0e003f;
+        public static final int tv_news_detail=0x7f0e0046;
         public static final int tv_news_push=0x7f0e0026;
-        public static final int tv_open_gl=0x7f0e005e;
+        public static final int tv_open_gl=0x7f0e0065;
         public static final int tv_other_setting=0x7f0e002c;
+        public static final int tv_overscroll_listview=0x7f0e0032;
         public static final int tv_password_hint=0x7f0e0017;
-        public static final int tv_phone_gap=0x7f0e0036;
-        public static final int tv_pinterest=0x7f0e005b;
-        public static final int tv_pinterest2=0x7f0e0061;
+        public static final int tv_phone_gap=0x7f0e003d;
+        public static final int tv_pinterest=0x7f0e0062;
+        public static final int tv_pinterest2=0x7f0e0068;
         public static final int tv_plug_in=0x7f0e000a;
         public static final int tv_progressing=0x7f0e0013;
-        public static final int tv_property_animation=0x7f0e0057;
+        public static final int tv_property_animation=0x7f0e005e;
+        public static final int tv_rebound_scrollview=0x7f0e0030;
         public static final int tv_recommand_subscribe=0x7f0e001e;
+        public static final int tv_recycle=0x7f0e0035;
         public static final int tv_register=0x7f0e001c;
         public static final int tv_remove_view=0x7f0e001d;
-        public static final int tv_reside_menu=0x7f0e0031;
-        public static final int tv_roboguice=0x7f0e0052;
-        public static final int tv_rotate_down=0x7f0e0064;
-        public static final int tv_rotate_up=0x7f0e0063;
-        public static final int tv_round_spin=0x7f0e0035;
-        public static final int tv_scroller=0x7f0e0060;
+        public static final int tv_reside_menu=0x7f0e0037;
+        public static final int tv_roboguice=0x7f0e0059;
+        public static final int tv_rotate_down=0x7f0e006b;
+        public static final int tv_rotate_up=0x7f0e006a;
+        public static final int tv_round_spin=0x7f0e003c;
+        public static final int tv_scroller=0x7f0e0067;
         public static final int tv_search_city=0x7f0e000f;
         public static final int tv_search_news=0x7f0e0011;
-        public static final int tv_send=0x7f0e0066;
-        public static final int tv_send_hint=0x7f0e0067;
-        public static final int tv_server_socket=0x7f0e004f;
+        public static final int tv_send=0x7f0e006d;
+        public static final int tv_send_hint=0x7f0e006e;
+        public static final int tv_server_socket=0x7f0e0056;
         public static final int tv_settings=0x7f0e000b;
         public static final int tv_share_to=0x7f0e0012;
-        public static final int tv_short_cut=0x7f0e0032;
-        public static final int tv_stack=0x7f0e0047;
-        public static final int tv_standard=0x7f0e003e;
+        public static final int tv_short_cut=0x7f0e0038;
+        public static final int tv_stack=0x7f0e004e;
+        public static final int tv_standard=0x7f0e0045;
         public static final int tv_start_experience=0x7f0e0009;
         public static final int tv_subscribe_interested=0x7f0e001f;
-        public static final int tv_surface_view=0x7f0e0054;
+        public static final int tv_surface_view=0x7f0e005b;
+        public static final int tv_swipe_listview=0x7f0e002f;
         public static final int tv_system_setting=0x7f0e0023;
-        public static final int tv_tablet=0x7f0e0042;
-        public static final int tv_textview=0x7f0e004b;
-        public static final int tv_two_code=0x7f0e0058;
+        public static final int tv_tablet=0x7f0e0049;
+        public static final int tv_textview=0x7f0e0052;
+        public static final int tv_two_code=0x7f0e005f;
+        public static final int tv_twoway=0x7f0e0031;
         public static final int tv_username_hint=0x7f0e0015;
-        public static final int tv_water_wave=0x7f0e0056;
+        public static final int tv_vertical_viewpager=0x7f0e0033;
+        public static final int tv_water_wave=0x7f0e005d;
         public static final int tv_weather=0x7f0e0010;
         public static final int tv_week=0x7f0e0016;
         public static final int tv_wifi_download=0x7f0e0027;
-        public static final int tv_zoom_in=0x7f0e0048;
-        public static final int tv_zoom_out=0x7f0e005a;
+        public static final int tv_zoom_in=0x7f0e004f;
+        public static final int tv_zoom_out=0x7f0e0061;
+        public static final int word=0x7f0e007d;
     }
     public static final class style {
         public static final int AppBaseTheme=0x7f0f0000;
         /**  <item name="android:actionBarStyle">@style/ActionBarStyle</item> 
          */
         public static final int AppTheme=0x7f0f0001;
+        public static final int TwoWayView=0x7f0f0004;
         /**  actionbar pulltorefresh style 
          */
         public static final int Widget_PullToRefresh_ProgressBar_Horizontal_Center=0x7f0f0003;
@@ -2477,6 +2534,600 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android:viewBehind
         */
         public static final int SlidingMenu_viewBehind = 2;
+        /** Attributes that can be used with a TwoWayView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TwoWayView_android_alpha com.roboo.like.netease:android_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_background com.roboo.like.netease:android_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_choiceMode com.roboo.like.netease:android_choiceMode}</code></td><td> Imported from AbsListView </td></tr>
+           <tr><td><code>{@link #TwoWayView_android_clickable com.roboo.like.netease:android_clickable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_contentDescription com.roboo.like.netease:android_contentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_drawSelectorOnTop com.roboo.like.netease:android_drawSelectorOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_drawingCacheQuality com.roboo.like.netease:android_drawingCacheQuality}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_duplicateParentState com.roboo.like.netease:android_duplicateParentState}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_fadeScrollbars com.roboo.like.netease:android_fadeScrollbars}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_fadingEdge com.roboo.like.netease:android_fadingEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_fadingEdgeLength com.roboo.like.netease:android_fadingEdgeLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_filterTouchesWhenObscured com.roboo.like.netease:android_filterTouchesWhenObscured}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_fitsSystemWindows com.roboo.like.netease:android_fitsSystemWindows}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_focusable com.roboo.like.netease:android_focusable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_focusableInTouchMode com.roboo.like.netease:android_focusableInTouchMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_hapticFeedbackEnabled com.roboo.like.netease:android_hapticFeedbackEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_id com.roboo.like.netease:android_id}</code></td><td> Imported from View </td></tr>
+           <tr><td><code>{@link #TwoWayView_android_isScrollContainer com.roboo.like.netease:android_isScrollContainer}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_keepScreenOn com.roboo.like.netease:android_keepScreenOn}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_layerType com.roboo.like.netease:android_layerType}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_layoutDirection com.roboo.like.netease:android_layoutDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_listSelector com.roboo.like.netease:android_listSelector}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_longClickable com.roboo.like.netease:android_longClickable}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_minHeight com.roboo.like.netease:android_minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_minWidth com.roboo.like.netease:android_minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_nextFocusDown com.roboo.like.netease:android_nextFocusDown}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_nextFocusForward com.roboo.like.netease:android_nextFocusForward}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_nextFocusLeft com.roboo.like.netease:android_nextFocusLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_nextFocusRight com.roboo.like.netease:android_nextFocusRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_nextFocusUp com.roboo.like.netease:android_nextFocusUp}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_onClick com.roboo.like.netease:android_onClick}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_orientation com.roboo.like.netease:android_orientation}</code></td><td> Imported from Android </td></tr>
+           <tr><td><code>{@link #TwoWayView_android_overScrollMode com.roboo.like.netease:android_overScrollMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_padding com.roboo.like.netease:android_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingBottom com.roboo.like.netease:android_paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingEnd com.roboo.like.netease:android_paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingLeft com.roboo.like.netease:android_paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingRight com.roboo.like.netease:android_paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingStart com.roboo.like.netease:android_paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_paddingTop com.roboo.like.netease:android_paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_requiresFadingEdge com.roboo.like.netease:android_requiresFadingEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_rotation com.roboo.like.netease:android_rotation}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_rotationX com.roboo.like.netease:android_rotationX}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_rotationY com.roboo.like.netease:android_rotationY}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_saveEnabled com.roboo.like.netease:android_saveEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scaleX com.roboo.like.netease:android_scaleX}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scaleY com.roboo.like.netease:android_scaleY}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollX com.roboo.like.netease:android_scrollX}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollY com.roboo.like.netease:android_scrollY}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarAlwaysDrawHorizontalTrack com.roboo.like.netease:android_scrollbarAlwaysDrawHorizontalTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarAlwaysDrawVerticalTrack com.roboo.like.netease:android_scrollbarAlwaysDrawVerticalTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarDefaultDelayBeforeFade com.roboo.like.netease:android_scrollbarDefaultDelayBeforeFade}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarFadeDuration com.roboo.like.netease:android_scrollbarFadeDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarSize com.roboo.like.netease:android_scrollbarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarStyle com.roboo.like.netease:android_scrollbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarThumbHorizontal com.roboo.like.netease:android_scrollbarThumbHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarThumbVertical com.roboo.like.netease:android_scrollbarThumbVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarTrackHorizontal com.roboo.like.netease:android_scrollbarTrackHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbarTrackVertical com.roboo.like.netease:android_scrollbarTrackVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_scrollbars com.roboo.like.netease:android_scrollbars}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_soundEffectsEnabled com.roboo.like.netease:android_soundEffectsEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_tag com.roboo.like.netease:android_tag}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_textAlignment com.roboo.like.netease:android_textAlignment}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_textDirection com.roboo.like.netease:android_textDirection}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_transformPivotX com.roboo.like.netease:android_transformPivotX}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_transformPivotY com.roboo.like.netease:android_transformPivotY}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_translationX com.roboo.like.netease:android_translationX}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_translationY com.roboo.like.netease:android_translationY}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_verticalScrollbarPosition com.roboo.like.netease:android_verticalScrollbarPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #TwoWayView_android_visibility com.roboo.like.netease:android_visibility}</code></td><td></td></tr>
+           </table>
+           @see #TwoWayView_android_alpha
+           @see #TwoWayView_android_background
+           @see #TwoWayView_android_choiceMode
+           @see #TwoWayView_android_clickable
+           @see #TwoWayView_android_contentDescription
+           @see #TwoWayView_android_drawSelectorOnTop
+           @see #TwoWayView_android_drawingCacheQuality
+           @see #TwoWayView_android_duplicateParentState
+           @see #TwoWayView_android_fadeScrollbars
+           @see #TwoWayView_android_fadingEdge
+           @see #TwoWayView_android_fadingEdgeLength
+           @see #TwoWayView_android_filterTouchesWhenObscured
+           @see #TwoWayView_android_fitsSystemWindows
+           @see #TwoWayView_android_focusable
+           @see #TwoWayView_android_focusableInTouchMode
+           @see #TwoWayView_android_hapticFeedbackEnabled
+           @see #TwoWayView_android_id
+           @see #TwoWayView_android_isScrollContainer
+           @see #TwoWayView_android_keepScreenOn
+           @see #TwoWayView_android_layerType
+           @see #TwoWayView_android_layoutDirection
+           @see #TwoWayView_android_listSelector
+           @see #TwoWayView_android_longClickable
+           @see #TwoWayView_android_minHeight
+           @see #TwoWayView_android_minWidth
+           @see #TwoWayView_android_nextFocusDown
+           @see #TwoWayView_android_nextFocusForward
+           @see #TwoWayView_android_nextFocusLeft
+           @see #TwoWayView_android_nextFocusRight
+           @see #TwoWayView_android_nextFocusUp
+           @see #TwoWayView_android_onClick
+           @see #TwoWayView_android_orientation
+           @see #TwoWayView_android_overScrollMode
+           @see #TwoWayView_android_padding
+           @see #TwoWayView_android_paddingBottom
+           @see #TwoWayView_android_paddingEnd
+           @see #TwoWayView_android_paddingLeft
+           @see #TwoWayView_android_paddingRight
+           @see #TwoWayView_android_paddingStart
+           @see #TwoWayView_android_paddingTop
+           @see #TwoWayView_android_requiresFadingEdge
+           @see #TwoWayView_android_rotation
+           @see #TwoWayView_android_rotationX
+           @see #TwoWayView_android_rotationY
+           @see #TwoWayView_android_saveEnabled
+           @see #TwoWayView_android_scaleX
+           @see #TwoWayView_android_scaleY
+           @see #TwoWayView_android_scrollX
+           @see #TwoWayView_android_scrollY
+           @see #TwoWayView_android_scrollbarAlwaysDrawHorizontalTrack
+           @see #TwoWayView_android_scrollbarAlwaysDrawVerticalTrack
+           @see #TwoWayView_android_scrollbarDefaultDelayBeforeFade
+           @see #TwoWayView_android_scrollbarFadeDuration
+           @see #TwoWayView_android_scrollbarSize
+           @see #TwoWayView_android_scrollbarStyle
+           @see #TwoWayView_android_scrollbarThumbHorizontal
+           @see #TwoWayView_android_scrollbarThumbVertical
+           @see #TwoWayView_android_scrollbarTrackHorizontal
+           @see #TwoWayView_android_scrollbarTrackVertical
+           @see #TwoWayView_android_scrollbars
+           @see #TwoWayView_android_soundEffectsEnabled
+           @see #TwoWayView_android_tag
+           @see #TwoWayView_android_textAlignment
+           @see #TwoWayView_android_textDirection
+           @see #TwoWayView_android_transformPivotX
+           @see #TwoWayView_android_transformPivotY
+           @see #TwoWayView_android_translationX
+           @see #TwoWayView_android_translationY
+           @see #TwoWayView_android_verticalScrollbarPosition
+           @see #TwoWayView_android_visibility
+         */
+        public static final int[] TwoWayView = {
+            0x01010063, 0x01010064, 0x01010065, 0x01010066,
+            0x01010067, 0x01010068, 0x01010069, 0x0101007f,
+            0x010100c4, 0x010100d0, 0x010100d1, 0x010100d2,
+            0x010100d3, 0x010100d4, 0x010100d5, 0x010100d6,
+            0x010100d7, 0x010100d8, 0x010100d9, 0x010100da,
+            0x010100db, 0x010100dc, 0x010100dd, 0x010100de,
+            0x010100df, 0x010100e0, 0x010100e1, 0x010100e2,
+            0x010100e3, 0x010100e4, 0x010100e5, 0x010100e6,
+            0x010100e7, 0x010100e8, 0x010100e9, 0x010100fb,
+            0x010100fc, 0x0101012b, 0x0101013f, 0x01010140,
+            0x01010215, 0x01010216, 0x0101024e, 0x0101025e,
+            0x0101026f, 0x01010273, 0x010102a8, 0x010102a9,
+            0x010102aa, 0x010102c1, 0x010102c4, 0x0101031f,
+            0x01010320, 0x01010321, 0x01010322, 0x01010323,
+            0x01010324, 0x01010325, 0x01010326, 0x01010327,
+            0x01010328, 0x01010334, 0x0101033c, 0x01010354,
+            0x010103a5, 0x010103b0, 0x010103b1, 0x010103b2,
+            0x010103b3, 0x010103b4
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_alpha}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_alpha
+        */
+        public static final int TwoWayView_android_alpha = 51;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_background}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_background
+        */
+        public static final int TwoWayView_android_background = 13;
+        /**
+          <p>
+          @attr description
+           Imported from AbsListView 
+          <p>This corresponds to the global attribute          resource symbol {@link com.roboo.like.netease.R.attr#android_choiceMode}.
+          @attr name android:android_choiceMode
+        */
+        public static final int TwoWayView_android_choiceMode = 37;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_clickable}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_clickable
+        */
+        public static final int TwoWayView_android_clickable = 30;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_contentDescription}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_contentDescription
+        */
+        public static final int TwoWayView_android_contentDescription = 45;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_drawSelectorOnTop}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_drawSelectorOnTop
+        */
+        public static final int TwoWayView_android_drawSelectorOnTop = 36;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_drawingCacheQuality}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_drawingCacheQuality
+        */
+        public static final int TwoWayView_android_drawingCacheQuality = 33;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_duplicateParentState}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_duplicateParentState
+        */
+        public static final int TwoWayView_android_duplicateParentState = 34;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_fadeScrollbars}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_fadeScrollbars
+        */
+        public static final int TwoWayView_android_fadeScrollbars = 48;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_fadingEdge}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_fadingEdge
+        */
+        public static final int TwoWayView_android_fadingEdge = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_fadingEdgeLength}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_fadingEdgeLength
+        */
+        public static final int TwoWayView_android_fadingEdgeLength = 25;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_filterTouchesWhenObscured}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_filterTouchesWhenObscured
+        */
+        public static final int TwoWayView_android_filterTouchesWhenObscured = 50;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_fitsSystemWindows}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_fitsSystemWindows
+        */
+        public static final int TwoWayView_android_fitsSystemWindows = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_focusable}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_focusable
+        */
+        public static final int TwoWayView_android_focusable = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_focusableInTouchMode}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_focusableInTouchMode
+        */
+        public static final int TwoWayView_android_focusableInTouchMode = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_hapticFeedbackEnabled}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_hapticFeedbackEnabled
+        */
+        public static final int TwoWayView_android_hapticFeedbackEnabled = 43;
+        /**
+          <p>
+          @attr description
+           Imported from View 
+          <p>This corresponds to the global attribute          resource symbol {@link com.roboo.like.netease.R.attr#android_id}.
+          @attr name android:android_id
+        */
+        public static final int TwoWayView_android_id = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_isScrollContainer}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_isScrollContainer
+        */
+        public static final int TwoWayView_android_isScrollContainer = 42;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_keepScreenOn}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_keepScreenOn
+        */
+        public static final int TwoWayView_android_keepScreenOn = 41;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_layerType}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_layerType
+        */
+        public static final int TwoWayView_android_layerType = 63;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_layoutDirection}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_layoutDirection
+        */
+        public static final int TwoWayView_android_layoutDirection = 67;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_listSelector}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_listSelector
+        */
+        public static final int TwoWayView_android_listSelector = 35;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_longClickable}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_longClickable
+        */
+        public static final int TwoWayView_android_longClickable = 31;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_minHeight}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_minHeight
+        */
+        public static final int TwoWayView_android_minHeight = 39;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_minWidth}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_minWidth
+        */
+        public static final int TwoWayView_android_minWidth = 38;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_nextFocusDown}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_nextFocusDown
+        */
+        public static final int TwoWayView_android_nextFocusDown = 29;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_nextFocusForward}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_nextFocusForward
+        */
+        public static final int TwoWayView_android_nextFocusForward = 62;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_nextFocusLeft}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_nextFocusLeft
+        */
+        public static final int TwoWayView_android_nextFocusLeft = 26;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_nextFocusRight}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_nextFocusRight
+        */
+        public static final int TwoWayView_android_nextFocusRight = 27;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_nextFocusUp}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_nextFocusUp
+        */
+        public static final int TwoWayView_android_nextFocusUp = 28;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_onClick}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_onClick
+        */
+        public static final int TwoWayView_android_onClick = 44;
+        /**
+          <p>
+          @attr description
+           Imported from Android 
+          <p>This corresponds to the global attribute          resource symbol {@link com.roboo.like.netease.R.attr#android_orientation}.
+          @attr name android:android_orientation
+        */
+        public static final int TwoWayView_android_orientation = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_overScrollMode}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_overScrollMode
+        */
+        public static final int TwoWayView_android_overScrollMode = 49;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_padding}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_padding
+        */
+        public static final int TwoWayView_android_padding = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingBottom}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingBottom
+        */
+        public static final int TwoWayView_android_paddingBottom = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingEnd}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingEnd
+        */
+        public static final int TwoWayView_android_paddingEnd = 69;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingLeft}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingLeft
+        */
+        public static final int TwoWayView_android_paddingLeft = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingRight}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingRight
+        */
+        public static final int TwoWayView_android_paddingRight = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingStart}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingStart
+        */
+        public static final int TwoWayView_android_paddingStart = 68;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_paddingTop}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_paddingTop
+        */
+        public static final int TwoWayView_android_paddingTop = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_requiresFadingEdge}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_requiresFadingEdge
+        */
+        public static final int TwoWayView_android_requiresFadingEdge = 64;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_rotation}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_rotation
+        */
+        public static final int TwoWayView_android_rotation = 58;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_rotationX}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_rotationX
+        */
+        public static final int TwoWayView_android_rotationX = 59;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_rotationY}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_rotationY
+        */
+        public static final int TwoWayView_android_rotationY = 60;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_saveEnabled}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_saveEnabled
+        */
+        public static final int TwoWayView_android_saveEnabled = 32;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scaleX}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scaleX
+        */
+        public static final int TwoWayView_android_scaleX = 56;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scaleY}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scaleY
+        */
+        public static final int TwoWayView_android_scaleY = 57;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollX}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollX
+        */
+        public static final int TwoWayView_android_scrollX = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollY}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollY
+        */
+        public static final int TwoWayView_android_scrollY = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarAlwaysDrawHorizontalTrack}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarAlwaysDrawHorizontalTrack
+        */
+        public static final int TwoWayView_android_scrollbarAlwaysDrawHorizontalTrack = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarAlwaysDrawVerticalTrack}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarAlwaysDrawVerticalTrack
+        */
+        public static final int TwoWayView_android_scrollbarAlwaysDrawVerticalTrack = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarDefaultDelayBeforeFade}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarDefaultDelayBeforeFade
+        */
+        public static final int TwoWayView_android_scrollbarDefaultDelayBeforeFade = 47;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarFadeDuration}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarFadeDuration
+        */
+        public static final int TwoWayView_android_scrollbarFadeDuration = 46;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarSize}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarSize
+        */
+        public static final int TwoWayView_android_scrollbarSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarStyle}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarStyle
+        */
+        public static final int TwoWayView_android_scrollbarStyle = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarThumbHorizontal}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarThumbHorizontal
+        */
+        public static final int TwoWayView_android_scrollbarThumbHorizontal = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarThumbVertical}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarThumbVertical
+        */
+        public static final int TwoWayView_android_scrollbarThumbVertical = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarTrackHorizontal}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarTrackHorizontal
+        */
+        public static final int TwoWayView_android_scrollbarTrackHorizontal = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbarTrackVertical}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbarTrackVertical
+        */
+        public static final int TwoWayView_android_scrollbarTrackVertical = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_scrollbars}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_scrollbars
+        */
+        public static final int TwoWayView_android_scrollbars = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_soundEffectsEnabled}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_soundEffectsEnabled
+        */
+        public static final int TwoWayView_android_soundEffectsEnabled = 40;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_tag}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_tag
+        */
+        public static final int TwoWayView_android_tag = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_textAlignment}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_textAlignment
+        */
+        public static final int TwoWayView_android_textAlignment = 66;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_textDirection}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_textDirection
+        */
+        public static final int TwoWayView_android_textDirection = 65;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_transformPivotX}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_transformPivotX
+        */
+        public static final int TwoWayView_android_transformPivotX = 52;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_transformPivotY}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_transformPivotY
+        */
+        public static final int TwoWayView_android_transformPivotY = 53;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_translationX}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_translationX
+        */
+        public static final int TwoWayView_android_translationX = 54;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_translationY}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_translationY
+        */
+        public static final int TwoWayView_android_translationY = 55;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_verticalScrollbarPosition}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_verticalScrollbarPosition
+        */
+        public static final int TwoWayView_android_verticalScrollbarPosition = 61;
+        /**
+          <p>This symbol is the offset where the {@link com.roboo.like.netease.R.attr#android_visibility}
+          attribute's value can be found in the {@link #TwoWayView} array.
+          @attr name android:android_visibility
+        */
+        public static final int TwoWayView_android_visibility = 21;
         /** Attributes that can be used with a ViewPagerIndicator.
            <p>Includes the following attributes:</p>
            <table>

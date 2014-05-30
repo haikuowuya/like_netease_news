@@ -20,8 +20,8 @@ import com.roboo.like.netease.commons.CrashException;
 import com.roboo.like.netease.dao.ICityDao;
 import com.roboo.like.netease.dao.impl.CityDaoImpl;
 import com.roboo.like.netease.database.DBHelper;
+import com.roboo.like.netease.fragment.ShareDialogFragment;
 import com.roboo.like.netease.view.MyProgressBar;
-import com.roboo.like.netease.view.fragment.ShareDialogFragment;
 
 @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 public class BaseRoboActivity extends RoboActivity implements OnClickListener

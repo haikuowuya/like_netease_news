@@ -15,13 +15,13 @@ import android.widget.ProgressBar;
 import com.roboo.like.netease.dao.ICityDao;
 import com.roboo.like.netease.dao.impl.CityDaoImpl;
 import com.roboo.like.netease.database.DBHelper;
+import com.roboo.like.netease.fragment.WeatherFragment;
 import com.roboo.like.netease.model.City;
 import com.roboo.like.netease.model.Weather;
 import com.roboo.like.netease.service.WeatherService;
 import com.roboo.like.netease.utils.JsonUtils;
 import com.roboo.like.netease.view.MyViewPager;
 import com.roboo.like.netease.view.MyViewPager.TransitionEffect;
-import com.roboo.like.netease.view.fragment.WeatherFragment;
 
 public class WeatherActivity extends BaseActivity
 {

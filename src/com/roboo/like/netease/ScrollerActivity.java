@@ -1,9 +1,6 @@
 package com.roboo.like.netease;
 
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnTouchListener;
 
 import com.roboo.like.netease.view.ScrollerViewGroup;
 

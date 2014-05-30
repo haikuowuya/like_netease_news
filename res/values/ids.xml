@@ -10,5 +10,6 @@
     <item name="ptr_progress" type="id"/>
     <item name="tv_always_selected_city" type="id"></item>
     <item  name="reside_menu" type="id"></item>
+    <item name="viewpager" type="id"></item>
 
 </resources>

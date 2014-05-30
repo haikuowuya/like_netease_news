@@ -3,11 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <!--
-         As the main content view, the view below consumes the entire
-         space available using match_parent in both dimensions.
-    -->
-
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
@@ -15,12 +10,22 @@
 
     <ListView
         android:id="@+id/left_drawer"
-        android:layout_width="300dp"
+        android:layout_width="240dp"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:layout_gravity="start|left"
         android:background="#111"
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp" />
-
+ 
+    <ListView
+        android:id="@+id/right_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|end"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+ 
 </android.support.v4.widget.DrawerLayout>

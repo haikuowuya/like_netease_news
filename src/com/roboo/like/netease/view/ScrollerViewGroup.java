@@ -1,9 +1,7 @@
 package com.roboo.like.netease.view;
 
-import android.R.integer;
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -14,7 +12,7 @@ import android.widget.Scroller;
 
 public class ScrollerViewGroup extends ViewGroup
 {
-	private Context mContext;
+	 
 	private Scroller mScroller;
 	private int mCurrentScreen;
 	// 两种状态: 是否处于滑屏状态
@@ -36,37 +34,32 @@ public class ScrollerViewGroup extends ViewGroup
 
 	public ScrollerViewGroup(Context context)
 	{
-		super(context);
-		this.mContext = context;
-		init();
+		this(context, null);
 	}
 
-	public ScrollerViewGroup(Context context, AttributeSet attrs, int defStyle)
-	{
-		super(context, attrs, defStyle);
-		this.mContext = context;
-		init();
-	}
 
 	public ScrollerViewGroup(Context context, AttributeSet attrs)
 	{
-		super(context, attrs);
-		this.mContext = context;
+		this(context, attrs, 0);
+	}
+	public ScrollerViewGroup(Context context, AttributeSet attrs, int defStyle)
+	{
+		super(context, attrs, defStyle);
 		init();
 	}
 
 	private void init()
 	{
-		this.mToggleScrollDistance = ViewConfiguration.get(mContext).getScaledTouchSlop();
+		this.mToggleScrollDistance = ViewConfiguration.get(getContext()).getScaledTouchSlop();
 		mHeight = getResources().getDisplayMetrics().heightPixels;
 		mWidth = getResources().getDisplayMetrics().widthPixels;
-		this.mScroller = new Scroller(mContext);
+		this.mScroller = new Scroller(getContext());
 		LinearLayout firstLinear, secondLinear, thirdLinear;
-		firstLinear = new LinearLayout(mContext);
+		firstLinear = new LinearLayout(getContext());
 		firstLinear.setBackgroundColor(Color.parseColor("#88FF2340"));
-		secondLinear = new LinearLayout(mContext);
+		secondLinear = new LinearLayout(getContext());
 		secondLinear.setBackgroundColor(Color.parseColor("#8800FF30"));
-		thirdLinear = new LinearLayout(mContext);
+		thirdLinear = new LinearLayout(getContext());
 		thirdLinear.setBackgroundColor(Color.parseColor("#880000FF"));
 		this.addView(firstLinear);
 		this.addView(secondLinear);
